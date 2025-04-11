@@ -6,6 +6,10 @@ import logging
 import smtplib
 import time  # For measuring run time
 from flask import Blueprint, jsonify
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 etl_bp = Blueprint("etl", __name__)  # Flask Blueprint for ETL process
 
@@ -23,19 +27,32 @@ logging.basicConfig(
 DB_PATH = "weather_data.db"
 CHUNK_SIZE = 50000  # Process data in batches for efficiency
 
-def send_email(subject, body, recipient="tsaurabh2021@gmail.com"):
+def send_email(subject, body, recipient="malhar.rananaware@gmail.com"):
     """
-    Sends an email using an unauthenticated SMTP connection on localhost.
-    Make sure you have a local SMTP server (e.g., Postfix, Sendmail) configured.
+    Sends an email using Gmail's SMTP server.
+    Note: For Gmail, you need to use an App Password if 2FA is enabled.
     """
     try:
-        # Connect to a local SMTP server that does not require authentication
-        server = smtplib.SMTP("localhost", 1025)
+        # Gmail SMTP server settings
+        smtp_server = "smtp.gmail.com"
+        smtp_port = 587
+        sender_email = os.getenv("GMAIL_USERNAME")
+        password = os.getenv("GMAIL_APP_PASSWORD")
 
+        # Create a secure SSL/TLS connection
+        server = smtplib.SMTP(smtp_server, smtp_port)
+        server.starttls()  # Enable TLS
+        
+        # Login to the server
+        server.login(sender_email, password)
+
+        # Create the email message
         message = f"Subject: {subject}\n\n{body}"
-        # Use a 'from' address that your local MTA accepts
-        server.sendmail("no-reply@example.com", recipient, message)
+        
+        # Send the email
+        server.sendmail(sender_email, recipient, message)
         server.quit()
+        
         logging.info(f"Email sent successfully to {recipient} with subject '{subject}'")
         print(f"Email sent successfully to {recipient} with subject '{subject}'")
     except Exception as e:

@@ -38,12 +38,14 @@
 
         <div class="card">
           <label for="citySelect">Select City:</label>
-          <select id="citySelect" class="select2">
-            <!-- Populated dynamically via loadCities() -->
-          </select>
+          <select
+            id="citySelect"
+            class="select2"
+            style="min-width: 200px"
+          ></select>
         </div>
 
-        <button class="modern-button" onclick="fetchTemperature()" title="Fetch the temperature for the selected city and date">
+        <button class="modern-button" onclick="fetchTemperature()">
           Get Temperature
         </button>
       </div>
@@ -210,7 +212,7 @@
               .join("")}
           </tbody>
         </table>
-      `;
+        `;
       }
 
       // 🚀 Init

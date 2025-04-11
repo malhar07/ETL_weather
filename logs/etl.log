@@ -1005,3 +1005,31 @@
 2025-04-10 14:22:25,786 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=12684, run_time=4.86s
 2025-04-10 14:22:25,789 - === ETL RUN COMPLETED in 4.86s. Total records processed: 100000 ===
 2025-04-10 14:22:25,792 - Failed to send email to tsaurabh2021@gmail.com: [Errno 61] Connection refused
+2025-04-10 18:00:20,932 - === ETL RUN START ===
+2025-04-10 18:00:21,123 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=13790, run_time=0.19s
+2025-04-10 18:00:21,191 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=13746, run_time=0.26s
+2025-04-10 18:00:21,255 - CHUNK PROCESSED: offset=100000, chunk_size=50000, records_added=13760, run_time=0.32s
+2025-04-10 18:00:21,327 - CHUNK PROCESSED: offset=150000, chunk_size=50000, records_added=13816, run_time=0.40s
+2025-04-10 18:00:21,395 - CHUNK PROCESSED: offset=200000, chunk_size=50000, records_added=13805, run_time=0.46s
+2025-04-10 18:00:21,465 - CHUNK PROCESSED: offset=250000, chunk_size=50000, records_added=13761, run_time=0.53s
+2025-04-10 18:00:21,534 - CHUNK PROCESSED: offset=300000, chunk_size=50000, records_added=13796, run_time=0.60s
+2025-04-10 18:00:21,608 - CHUNK PROCESSED: offset=350000, chunk_size=50000, records_added=13781, run_time=0.68s
+2025-04-10 18:00:21,677 - CHUNK PROCESSED: offset=400000, chunk_size=50000, records_added=13719, run_time=0.75s
+2025-04-10 18:00:21,749 - CHUNK PROCESSED: offset=450000, chunk_size=50000, records_added=13755, run_time=0.82s
+2025-04-10 18:00:21,819 - CHUNK PROCESSED: offset=500000, chunk_size=50000, records_added=13782, run_time=0.89s
+2025-04-10 18:00:21,892 - CHUNK PROCESSED: offset=550000, chunk_size=50000, records_added=13810, run_time=0.96s
+2025-04-10 18:00:21,983 - CHUNK PROCESSED: offset=600000, chunk_size=50000, records_added=13815, run_time=1.05s
+2025-04-10 18:00:22,064 - CHUNK PROCESSED: offset=650000, chunk_size=50000, records_added=13822, run_time=1.13s
+2025-04-10 18:00:22,141 - CHUNK PROCESSED: offset=700000, chunk_size=50000, records_added=13772, run_time=1.21s
+2025-04-10 18:00:22,221 - CHUNK PROCESSED: offset=750000, chunk_size=50000, records_added=13809, run_time=1.29s
+2025-04-10 18:00:22,302 - CHUNK PROCESSED: offset=800000, chunk_size=50000, records_added=13757, run_time=1.37s
+2025-04-10 18:00:22,379 - CHUNK PROCESSED: offset=850000, chunk_size=50000, records_added=13762, run_time=1.45s
+2025-04-10 18:00:22,457 - CHUNK PROCESSED: offset=900000, chunk_size=50000, records_added=13812, run_time=1.53s
+2025-04-10 18:00:22,547 - CHUNK PROCESSED: offset=950000, chunk_size=50000, records_added=13858, run_time=1.62s
+2025-04-10 18:00:22,560 - === ETL RUN COMPLETED in 1.63s. Total records processed: 1000000 ===
+2025-04-10 18:00:22,562 - Failed to send email to tsaurabh2021@gmail.com: [Errno 61] Connection refused
+2025-04-10 19:16:07,388 - Email sent successfully to malhar.rananaware@gmail.com with subject 'Test Email'
+2025-04-10 19:17:54,365 - === ETL RUN START ===
+2025-04-10 19:17:55,580 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=11114, run_time=1.21s
+2025-04-10 19:17:55,581 - === ETL RUN COMPLETED in 1.22s. Total records processed: 50000 ===
+2025-04-10 19:17:56,580 - Email sent successfully to malhar.rananaware@gmail.com with subject 'ETL Success'
