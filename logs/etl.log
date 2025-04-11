@@ -1,0 +1,1007 @@
+2025-03-16 01:04:07,827 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 01:04:07,827 - [33mPress CTRL+C to quit[0m
+2025-03-16 01:04:07,827 -  * Restarting with stat
+2025-03-16 01:04:08,170 -  * Debugger is active!
+2025-03-16 01:04:08,185 -  * Debugger PIN: 738-293-069
+2025-03-16 01:04:31,482 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 01:04:31,482 - [33mPress CTRL+C to quit[0m
+2025-03-16 01:04:31,482 -  * Restarting with stat
+2025-03-16 01:04:31,820 -  * Debugger is active!
+2025-03-16 01:04:31,827 -  * Debugger PIN: 738-293-069
+2025-03-16 01:05:44,079 - 127.0.0.1 - - [16/Mar/2025 01:05:44] "GET / HTTP/1.1" 200 -
+2025-03-16 01:05:44,181 - 127.0.0.1 - - [16/Mar/2025 01:05:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-16 01:07:39,164 - 127.0.0.1 - - [16/Mar/2025 01:07:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-16 01:07:41,339 - 127.0.0.1 - - [16/Mar/2025 01:07:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-16 01:07:53,161 - 127.0.0.1 - - [16/Mar/2025 01:07:53] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-03-16 01:07:59,137 - 127.0.0.1 - - [16/Mar/2025 01:07:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-16 01:07:59,146 - 127.0.0.1 - - [16/Mar/2025 01:07:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-16 01:09:36,014 - 127.0.0.1 - - [16/Mar/2025 01:09:36] "GET /bulk/fetch_bulk HTTP/1.1" 200 -
+2025-03-16 01:11:05,336 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 01:11:05,337 - [33mPress CTRL+C to quit[0m
+2025-03-16 01:11:05,337 -  * Restarting with stat
+2025-03-16 01:11:05,673 -  * Debugger is active!
+2025-03-16 01:11:05,683 -  * Debugger PIN: 738-293-069
+2025-03-16 01:11:34,775 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-16 01:11:34,775 - [33mPress CTRL+C to quit[0m
+2025-03-16 01:11:34,776 -  * Restarting with stat
+2025-03-16 01:11:35,136 -  * Debugger is active!
+2025-03-16 01:11:35,144 -  * Debugger PIN: 738-293-069
+2025-03-16 01:11:41,075 - 127.0.0.1 - - [16/Mar/2025 01:11:41] "GET /dashboard HTTP/1.1" 200 -
+2025-03-16 01:11:41,419 - 127.0.0.1 - - [16/Mar/2025 01:11:41] "[35m[1mGET /bulk/clean_data HTTP/1.1[0m" 500 -
+2025-03-16 01:11:54,885 - 127.0.0.1 - - [16/Mar/2025 01:11:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-16 01:11:55,929 - 127.0.0.1 - - [16/Mar/2025 01:11:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-16 01:11:56,245 - 127.0.0.1 - - [16/Mar/2025 01:11:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-18 16:33:22,579 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 16:33:22,579 - [33mPress CTRL+C to quit[0m
+2025-03-18 16:33:22,579 -  * Restarting with stat
+2025-03-18 16:33:22,861 -  * Debugger is active!
+2025-03-18 16:33:22,866 -  * Debugger PIN: 418-679-841
+2025-03-18 16:33:57,207 - 127.0.0.1 - - [18/Mar/2025 16:33:57] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-18 16:33:57,249 - 127.0.0.1 - - [18/Mar/2025 16:33:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-18 16:37:25,012 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/app.py', reloading
+2025-03-18 16:37:25,081 -  * Restarting with stat
+2025-03-18 16:37:25,478 -  * Debugger is active!
+2025-03-18 16:37:25,482 -  * Debugger PIN: 418-679-841
+2025-03-18 16:38:05,140 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/models/weather_model.py', reloading
+2025-03-18 16:38:05,209 -  * Restarting with stat
+2025-03-18 16:38:05,557 -  * Debugger is active!
+2025-03-18 16:38:05,562 -  * Debugger PIN: 418-679-841
+2025-03-18 16:38:25,893 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/controllers/bulk_controller.py', reloading
+2025-03-18 16:38:25,967 -  * Restarting with stat
+2025-03-18 16:38:26,331 -  * Debugger is active!
+2025-03-18 16:38:26,337 -  * Debugger PIN: 418-679-841
+2025-03-18 16:38:34,472 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/controllers/etl_controller.py', reloading
+2025-03-18 16:38:34,536 -  * Restarting with stat
+2025-03-18 16:38:34,829 -  * Debugger is active!
+2025-03-18 16:38:34,832 -  * Debugger PIN: 418-679-841
+2025-03-18 16:38:43,525 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 16:38:43,526 - [33mPress CTRL+C to quit[0m
+2025-03-18 16:38:43,526 -  * Restarting with stat
+2025-03-18 16:38:43,788 -  * Debugger is active!
+2025-03-18 16:38:43,791 -  * Debugger PIN: 418-679-841
+2025-03-18 16:38:48,768 - 127.0.0.1 - - [18/Mar/2025 16:38:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-18 16:38:56,393 - 127.0.0.1 - - [18/Mar/2025 16:38:56] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-03-18 16:38:56,394 - 127.0.0.1 - - [18/Mar/2025 16:38:56] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-03-18 16:38:56,395 - 127.0.0.1 - - [18/Mar/2025 16:38:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-18 16:39:06,610 - 127.0.0.1 - - [18/Mar/2025 16:39:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-18 16:39:06,623 - 127.0.0.1 - - [18/Mar/2025 16:39:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-18 16:40:37,764 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/controllers/bulk_controller.py', reloading
+2025-03-18 16:40:37,828 -  * Restarting with stat
+2025-03-18 16:40:38,228 -  * Debugger is active!
+2025-03-18 16:40:38,233 -  * Debugger PIN: 418-679-841
+2025-03-18 16:40:58,554 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/app.py', reloading
+2025-03-18 16:40:58,628 -  * Restarting with stat
+2025-03-18 16:40:58,906 -  * Debugger is active!
+2025-03-18 16:40:58,910 -  * Debugger PIN: 418-679-841
+2025-03-18 16:41:18,514 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 16:41:18,514 - [33mPress CTRL+C to quit[0m
+2025-03-18 16:41:18,515 -  * Restarting with stat
+2025-03-18 16:41:18,777 -  * Debugger is active!
+2025-03-18 16:41:18,781 -  * Debugger PIN: 418-679-841
+2025-03-18 16:41:22,545 - 127.0.0.1 - - [18/Mar/2025 16:41:22] "GET / HTTP/1.1" 200 -
+2025-03-18 16:41:22,556 - 127.0.0.1 - - [18/Mar/2025 16:41:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 16:41:26,179 - 127.0.0.1 - - [18/Mar/2025 16:41:26] "GET /bulk/view_weather_data?page=2 HTTP/1.1" 200 -
+2025-03-18 16:41:26,189 - 127.0.0.1 - - [18/Mar/2025 16:41:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 16:41:27,845 - 127.0.0.1 - - [18/Mar/2025 16:41:27] "GET /bulk/view_weather_data?page=1 HTTP/1.1" 200 -
+2025-03-18 16:41:27,856 - 127.0.0.1 - - [18/Mar/2025 16:41:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 16:41:55,686 - 127.0.0.1 - - [18/Mar/2025 16:41:55] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 16:41:56,186 - 127.0.0.1 - - [18/Mar/2025 16:41:56] "[35m[1mGET /bulk/clean_data HTTP/1.1[0m" 500 -
+2025-03-18 16:41:59,528 - 127.0.0.1 - - [18/Mar/2025 16:41:59] "GET /etl/run HTTP/1.1" 200 -
+2025-03-18 16:41:59,612 - Processed 0 to 50000 records
+2025-03-18 16:41:59,659 - Processed 50000 to 100000 records
+2025-03-18 16:41:59,706 - Processed 100000 to 150000 records
+2025-03-18 16:41:59,753 - Processed 150000 to 200000 records
+2025-03-18 16:41:59,802 - Processed 200000 to 250000 records
+2025-03-18 16:41:59,852 - Processed 250000 to 300000 records
+2025-03-18 16:41:59,902 - Processed 300000 to 350000 records
+2025-03-18 16:41:59,953 - Processed 350000 to 400000 records
+2025-03-18 16:42:00,004 - Processed 400000 to 450000 records
+2025-03-18 16:42:00,055 - Processed 450000 to 500000 records
+2025-03-18 16:42:00,108 - Processed 500000 to 550000 records
+2025-03-18 16:42:00,161 - Processed 550000 to 600000 records
+2025-03-18 16:42:00,217 - Processed 600000 to 650000 records
+2025-03-18 16:42:00,273 - Processed 650000 to 700000 records
+2025-03-18 16:42:00,331 - Processed 700000 to 750000 records
+2025-03-18 16:42:00,392 - Processed 750000 to 800000 records
+2025-03-18 16:42:00,456 - Processed 800000 to 850000 records
+2025-03-18 16:42:00,518 - Processed 850000 to 900000 records
+2025-03-18 16:42:00,581 - Processed 900000 to 950000 records
+2025-03-18 16:42:00,644 - Processed 950000 to 1000000 records
+2025-03-18 16:42:04,539 - 127.0.0.1 - - [18/Mar/2025 16:42:04] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 16:45:18,014 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/app.py', reloading
+2025-03-18 16:45:18,082 -  * Restarting with stat
+2025-03-18 16:45:18,460 -  * Debugger is active!
+2025-03-18 16:45:18,465 -  * Debugger PIN: 418-679-841
+2025-03-18 16:45:55,056 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/controllers/bulk_controller.py', reloading
+2025-03-18 16:45:55,124 -  * Restarting with stat
+2025-03-18 16:45:55,477 -  * Debugger is active!
+2025-03-18 16:45:55,482 -  * Debugger PIN: 418-679-841
+2025-03-18 16:46:21,298 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 16:46:21,298 - [33mPress CTRL+C to quit[0m
+2025-03-18 16:46:21,298 -  * Restarting with stat
+2025-03-18 16:46:21,563 -  * Debugger is active!
+2025-03-18 16:46:21,566 -  * Debugger PIN: 418-679-841
+2025-03-18 16:46:25,859 - 127.0.0.1 - - [18/Mar/2025 16:46:25] "[33mGET /bulk/view_weather_data?page=1 HTTP/1.1[0m" 404 -
+2025-03-18 16:46:26,754 - 127.0.0.1 - - [18/Mar/2025 16:46:26] "[33mGET /bulk/view_weather_data?page=1 HTTP/1.1[0m" 404 -
+2025-03-18 16:46:27,023 - 127.0.0.1 - - [18/Mar/2025 16:46:27] "[33mGET /bulk/view_weather_data?page=1 HTTP/1.1[0m" 404 -
+2025-03-18 16:46:27,855 - 127.0.0.1 - - [18/Mar/2025 16:46:27] "[33mGET /bulk/view_weather_data?page=1 HTTP/1.1[0m" 404 -
+2025-03-18 16:46:28,247 - 127.0.0.1 - - [18/Mar/2025 16:46:28] "[33mGET /bulk/view_weather_data?page=1 HTTP/1.1[0m" 404 -
+2025-03-18 16:46:32,949 - 127.0.0.1 - - [18/Mar/2025 16:46:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-18 16:47:36,879 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/controllers/bulk_controller.py', reloading
+2025-03-18 16:47:36,951 -  * Restarting with stat
+2025-03-18 16:47:37,344 -  * Debugger is active!
+2025-03-18 16:47:37,348 -  * Debugger PIN: 418-679-841
+2025-03-18 16:48:03,439 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 16:48:03,439 - [33mPress CTRL+C to quit[0m
+2025-03-18 16:48:03,440 -  * Restarting with stat
+2025-03-18 16:48:03,706 -  * Debugger is active!
+2025-03-18 16:48:03,710 -  * Debugger PIN: 418-679-841
+2025-03-18 16:48:06,199 - 127.0.0.1 - - [18/Mar/2025 16:48:06] "GET / HTTP/1.1" 200 -
+2025-03-18 16:48:06,209 - 127.0.0.1 - - [18/Mar/2025 16:48:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 16:48:58,278 - 127.0.0.1 - - [18/Mar/2025 16:48:58] "GET /bulk/view_weather_data?page=2 HTTP/1.1" 200 -
+2025-03-18 16:48:58,288 - 127.0.0.1 - - [18/Mar/2025 16:48:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 16:48:59,175 - 127.0.0.1 - - [18/Mar/2025 16:48:59] "GET /bulk/view_weather_data?page=3 HTTP/1.1" 200 -
+2025-03-18 16:48:59,184 - 127.0.0.1 - - [18/Mar/2025 16:48:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 16:48:59,909 - 127.0.0.1 - - [18/Mar/2025 16:48:59] "GET /bulk/view_weather_data?page=4 HTTP/1.1" 200 -
+2025-03-18 16:48:59,919 - 127.0.0.1 - - [18/Mar/2025 16:48:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 16:49:00,505 - 127.0.0.1 - - [18/Mar/2025 16:49:00] "GET /bulk/view_weather_data?page=5 HTTP/1.1" 200 -
+2025-03-18 16:49:00,514 - 127.0.0.1 - - [18/Mar/2025 16:49:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 16:49:21,062 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/app.py', reloading
+2025-03-18 16:49:21,127 -  * Restarting with stat
+2025-03-18 16:49:21,562 -  * Debugger is active!
+2025-03-18 16:49:21,566 -  * Debugger PIN: 418-679-841
+2025-03-18 16:49:31,725 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/controllers/bulk_controller.py', reloading
+2025-03-18 16:49:31,807 -  * Restarting with stat
+2025-03-18 16:49:32,196 -  * Debugger is active!
+2025-03-18 16:49:32,200 -  * Debugger PIN: 418-679-841
+2025-03-18 16:49:52,302 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 16:49:52,302 - [33mPress CTRL+C to quit[0m
+2025-03-18 16:49:52,302 -  * Restarting with stat
+2025-03-18 16:49:52,574 -  * Debugger is active!
+2025-03-18 16:49:52,578 -  * Debugger PIN: 418-679-841
+2025-03-18 16:49:55,175 - 127.0.0.1 - - [18/Mar/2025 16:49:55] "GET /bulk/view_weather_data?page=5 HTTP/1.1" 200 -
+2025-03-18 16:49:55,187 - 127.0.0.1 - - [18/Mar/2025 16:49:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 16:50:39,205 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 16:50:39,206 - [33mPress CTRL+C to quit[0m
+2025-03-18 16:50:39,206 -  * Restarting with stat
+2025-03-18 16:50:39,471 -  * Debugger is active!
+2025-03-18 16:50:39,474 -  * Debugger PIN: 418-679-841
+2025-03-18 16:50:41,554 - 127.0.0.1 - - [18/Mar/2025 16:50:41] "GET /bulk/view_weather_data?page=5 HTTP/1.1" 200 -
+2025-03-18 16:50:41,560 - 127.0.0.1 - - [18/Mar/2025 16:50:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 16:50:44,094 - 127.0.0.1 - - [18/Mar/2025 16:50:44] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 16:50:44,281 - 127.0.0.1 - - [18/Mar/2025 16:50:44] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 16:52:54,849 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/app.py', reloading
+2025-03-18 16:52:54,916 -  * Restarting with stat
+2025-03-18 16:52:55,348 -  * Debugger is active!
+2025-03-18 16:52:55,353 -  * Debugger PIN: 418-679-841
+2025-03-18 16:53:01,460 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/controllers/bulk_controller.py', reloading
+2025-03-18 16:53:01,523 -  * Restarting with stat
+2025-03-18 16:53:01,830 -  * Debugger is active!
+2025-03-18 16:53:01,834 -  * Debugger PIN: 418-679-841
+2025-03-18 16:53:23,692 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 16:53:23,692 - [33mPress CTRL+C to quit[0m
+2025-03-18 16:53:23,693 -  * Restarting with stat
+2025-03-18 16:53:23,958 -  * Debugger is active!
+2025-03-18 16:53:23,962 -  * Debugger PIN: 418-679-841
+2025-03-18 16:53:26,373 - 127.0.0.1 - - [18/Mar/2025 16:53:26] "GET /bulk/view_weather_data?page=5 HTTP/1.1" 200 -
+2025-03-18 16:53:26,385 - 127.0.0.1 - - [18/Mar/2025 16:53:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 16:53:38,640 - 127.0.0.1 - - [18/Mar/2025 16:53:38] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 16:53:38,663 - 127.0.0.1 - - [18/Mar/2025 16:53:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 16:53:38,669 - 127.0.0.1 - - [18/Mar/2025 16:53:38] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 16:53:38,829 - 127.0.0.1 - - [18/Mar/2025 16:53:38] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 16:53:49,749 - 127.0.0.1 - - [18/Mar/2025 16:53:49] "GET / HTTP/1.1" 200 -
+2025-03-18 16:53:49,760 - 127.0.0.1 - - [18/Mar/2025 16:53:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 16:55:17,918 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/controllers/bulk_controller.py', reloading
+2025-03-18 16:55:17,995 -  * Restarting with stat
+2025-03-18 16:55:18,423 -  * Debugger is active!
+2025-03-18 16:55:18,427 -  * Debugger PIN: 418-679-841
+2025-03-18 16:55:43,904 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 16:55:43,904 - [33mPress CTRL+C to quit[0m
+2025-03-18 16:55:43,905 -  * Restarting with stat
+2025-03-18 16:55:44,176 -  * Debugger is active!
+2025-03-18 16:55:44,179 -  * Debugger PIN: 418-679-841
+2025-03-18 16:55:46,873 - 127.0.0.1 - - [18/Mar/2025 16:55:46] "GET / HTTP/1.1" 200 -
+2025-03-18 16:55:46,884 - 127.0.0.1 - - [18/Mar/2025 16:55:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 16:56:03,588 - 127.0.0.1 - - [18/Mar/2025 16:56:03] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 16:56:03,606 - 127.0.0.1 - - [18/Mar/2025 16:56:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 16:56:03,609 - 127.0.0.1 - - [18/Mar/2025 16:56:03] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 16:56:03,771 - 127.0.0.1 - - [18/Mar/2025 16:56:03] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 16:56:39,266 - 127.0.0.1 - - [18/Mar/2025 16:56:39] "GET / HTTP/1.1" 200 -
+2025-03-18 16:56:39,278 - 127.0.0.1 - - [18/Mar/2025 16:56:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 16:59:41,325 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/app.py', reloading
+2025-03-18 16:59:41,396 -  * Restarting with stat
+2025-03-18 16:59:41,811 -  * Debugger is active!
+2025-03-18 16:59:41,815 -  * Debugger PIN: 418-679-841
+2025-03-18 17:00:46,860 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/controllers/bulk_controller.py', reloading
+2025-03-18 17:00:46,928 -  * Restarting with stat
+2025-03-18 17:00:47,317 -  * Debugger is active!
+2025-03-18 17:00:47,321 -  * Debugger PIN: 418-679-841
+2025-03-18 17:02:06,236 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 17:02:06,236 - [33mPress CTRL+C to quit[0m
+2025-03-18 17:02:06,237 -  * Restarting with stat
+2025-03-18 17:02:06,505 -  * Debugger is active!
+2025-03-18 17:02:06,509 -  * Debugger PIN: 418-679-841
+2025-03-18 17:02:09,931 - 127.0.0.1 - - [18/Mar/2025 17:02:09] "GET / HTTP/1.1" 200 -
+2025-03-18 17:02:09,941 - 127.0.0.1 - - [18/Mar/2025 17:02:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 17:02:19,458 - 127.0.0.1 - - [18/Mar/2025 17:02:19] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:02:19,480 - 127.0.0.1 - - [18/Mar/2025 17:02:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:02:19,865 - 127.0.0.1 - - [18/Mar/2025 17:02:19] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:02:20,022 - 127.0.0.1 - - [18/Mar/2025 17:02:20] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:02:20,027 - 127.0.0.1 - - [18/Mar/2025 17:02:20] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:04:37,062 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/controllers/bulk_controller.py', reloading
+2025-03-18 17:04:37,144 -  * Restarting with stat
+2025-03-18 17:04:37,566 -  * Debugger is active!
+2025-03-18 17:04:37,571 -  * Debugger PIN: 418-679-841
+2025-03-18 17:05:49,789 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 17:05:49,789 - [33mPress CTRL+C to quit[0m
+2025-03-18 17:05:49,790 -  * Restarting with stat
+2025-03-18 17:05:50,054 -  * Debugger is active!
+2025-03-18 17:05:50,057 -  * Debugger PIN: 418-679-841
+2025-03-18 17:05:55,542 - 127.0.0.1 - - [18/Mar/2025 17:05:55] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:05:55,568 - 127.0.0.1 - - [18/Mar/2025 17:05:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 17:05:55,585 - 127.0.0.1 - - [18/Mar/2025 17:05:55] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:05:55,753 - 127.0.0.1 - - [18/Mar/2025 17:05:55] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:05:55,758 - 127.0.0.1 - - [18/Mar/2025 17:05:55] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:05:56,869 - 127.0.0.1 - - [18/Mar/2025 17:05:56] "GET / HTTP/1.1" 200 -
+2025-03-18 17:05:56,877 - 127.0.0.1 - - [18/Mar/2025 17:05:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:05:58,834 - 127.0.0.1 - - [18/Mar/2025 17:05:58] "GET / HTTP/1.1" 200 -
+2025-03-18 17:05:58,844 - 127.0.0.1 - - [18/Mar/2025 17:05:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:05:59,886 - 127.0.0.1 - - [18/Mar/2025 17:05:59] "GET / HTTP/1.1" 200 -
+2025-03-18 17:05:59,896 - 127.0.0.1 - - [18/Mar/2025 17:05:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:06:00,118 - 127.0.0.1 - - [18/Mar/2025 17:06:00] "GET / HTTP/1.1" 200 -
+2025-03-18 17:06:00,127 - 127.0.0.1 - - [18/Mar/2025 17:06:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:06:00,351 - 127.0.0.1 - - [18/Mar/2025 17:06:00] "GET / HTTP/1.1" 200 -
+2025-03-18 17:06:00,360 - 127.0.0.1 - - [18/Mar/2025 17:06:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:06:00,601 - 127.0.0.1 - - [18/Mar/2025 17:06:00] "GET / HTTP/1.1" 200 -
+2025-03-18 17:06:00,610 - 127.0.0.1 - - [18/Mar/2025 17:06:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:06:02,644 - 127.0.0.1 - - [18/Mar/2025 17:06:02] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:06:02,668 - 127.0.0.1 - - [18/Mar/2025 17:06:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:06:02,674 - 127.0.0.1 - - [18/Mar/2025 17:06:02] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:06:02,831 - 127.0.0.1 - - [18/Mar/2025 17:06:02] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:06:02,847 - 127.0.0.1 - - [18/Mar/2025 17:06:02] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:06:23,751 - 127.0.0.1 - - [18/Mar/2025 17:06:23] "GET / HTTP/1.1" 200 -
+2025-03-18 17:06:23,763 - 127.0.0.1 - - [18/Mar/2025 17:06:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 17:06:26,611 - 127.0.0.1 - - [18/Mar/2025 17:06:26] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:06:26,628 - 127.0.0.1 - - [18/Mar/2025 17:06:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:06:26,769 - 127.0.0.1 - - [18/Mar/2025 17:06:26] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:06:26,922 - 127.0.0.1 - - [18/Mar/2025 17:06:26] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:06:26,942 - 127.0.0.1 - - [18/Mar/2025 17:06:26] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:07:40,870 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 17:07:40,870 - [33mPress CTRL+C to quit[0m
+2025-03-18 17:07:40,870 -  * Restarting with stat
+2025-03-18 17:07:41,150 -  * Debugger is active!
+2025-03-18 17:07:41,155 -  * Debugger PIN: 418-679-841
+2025-03-18 17:07:44,455 - 127.0.0.1 - - [18/Mar/2025 17:07:44] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:07:44,470 - 127.0.0.1 - - [18/Mar/2025 17:07:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:07:44,547 - 127.0.0.1 - - [18/Mar/2025 17:07:44] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:07:44,694 - 127.0.0.1 - - [18/Mar/2025 17:07:44] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:07:44,709 - 127.0.0.1 - - [18/Mar/2025 17:07:44] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:08:00,373 - 127.0.0.1 - - [18/Mar/2025 17:08:00] "[33mGET /bulk/temperature?city=Newark&date=2025-03-11 HTTP/1.1[0m" 404 -
+2025-03-18 17:08:09,769 - 127.0.0.1 - - [18/Mar/2025 17:08:09] "GET / HTTP/1.1" 200 -
+2025-03-18 17:08:09,781 - 127.0.0.1 - - [18/Mar/2025 17:08:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:08:15,210 - 127.0.0.1 - - [18/Mar/2025 17:08:15] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:08:15,226 - 127.0.0.1 - - [18/Mar/2025 17:08:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:08:15,242 - 127.0.0.1 - - [18/Mar/2025 17:08:15] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:08:15,391 - 127.0.0.1 - - [18/Mar/2025 17:08:15] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:08:15,406 - 127.0.0.1 - - [18/Mar/2025 17:08:15] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:08:32,571 - 127.0.0.1 - - [18/Mar/2025 17:08:32] "GET /bulk/temperature?city=Norfolk&date=2016-07-17 HTTP/1.1" 200 -
+2025-03-18 17:11:47,235 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 17:11:47,235 - [33mPress CTRL+C to quit[0m
+2025-03-18 17:11:47,236 -  * Restarting with stat
+2025-03-18 17:11:47,505 -  * Debugger is active!
+2025-03-18 17:11:47,509 -  * Debugger PIN: 418-679-841
+2025-03-18 17:11:50,814 - 127.0.0.1 - - [18/Mar/2025 17:11:50] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:11:50,834 - 127.0.0.1 - - [18/Mar/2025 17:11:50] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 17:11:50,847 - 127.0.0.1 - - [18/Mar/2025 17:11:50] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:11:50,991 - 127.0.0.1 - - [18/Mar/2025 17:11:50] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:11:51,006 - 127.0.0.1 - - [18/Mar/2025 17:11:51] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:12:00,666 - 127.0.0.1 - - [18/Mar/2025 17:12:00] "GET / HTTP/1.1" 200 -
+2025-03-18 17:12:00,676 - 127.0.0.1 - - [18/Mar/2025 17:12:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:12:10,359 - 127.0.0.1 - - [18/Mar/2025 17:12:10] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:12:10,375 - 127.0.0.1 - - [18/Mar/2025 17:12:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:12:10,385 - 127.0.0.1 - - [18/Mar/2025 17:12:10] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:12:10,535 - 127.0.0.1 - - [18/Mar/2025 17:12:10] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:12:10,550 - 127.0.0.1 - - [18/Mar/2025 17:12:10] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:14:32,093 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 17:14:32,093 - [33mPress CTRL+C to quit[0m
+2025-03-18 17:14:32,094 -  * Restarting with stat
+2025-03-18 17:14:32,368 -  * Debugger is active!
+2025-03-18 17:14:32,373 -  * Debugger PIN: 418-679-841
+2025-03-18 17:14:35,363 - 127.0.0.1 - - [18/Mar/2025 17:14:35] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:14:35,383 - 127.0.0.1 - - [18/Mar/2025 17:14:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 17:14:35,396 - 127.0.0.1 - - [18/Mar/2025 17:14:35] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:14:35,543 - 127.0.0.1 - - [18/Mar/2025 17:14:35] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:14:35,565 - 127.0.0.1 - - [18/Mar/2025 17:14:35] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:14:44,754 - 127.0.0.1 - - [18/Mar/2025 17:14:44] "GET / HTTP/1.1" 200 -
+2025-03-18 17:14:44,765 - 127.0.0.1 - - [18/Mar/2025 17:14:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:14:49,041 - 127.0.0.1 - - [18/Mar/2025 17:14:49] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:14:49,057 - 127.0.0.1 - - [18/Mar/2025 17:14:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:14:49,065 - 127.0.0.1 - - [18/Mar/2025 17:14:49] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:14:49,214 - 127.0.0.1 - - [18/Mar/2025 17:14:49] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:14:49,227 - 127.0.0.1 - - [18/Mar/2025 17:14:49] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:16:36,551 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/app.py', reloading
+2025-03-18 17:16:36,624 -  * Restarting with stat
+2025-03-18 17:16:37,053 -  * Debugger is active!
+2025-03-18 17:16:37,057 -  * Debugger PIN: 418-679-841
+2025-03-18 17:19:30,847 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/controllers/bulk_controller.py', reloading
+2025-03-18 17:19:30,920 -  * Restarting with stat
+2025-03-18 17:19:31,307 -  * Debugger is active!
+2025-03-18 17:19:31,311 -  * Debugger PIN: 418-679-841
+2025-03-18 17:20:35,385 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 17:20:35,385 - [33mPress CTRL+C to quit[0m
+2025-03-18 17:20:35,386 -  * Restarting with stat
+2025-03-18 17:20:35,652 -  * Debugger is active!
+2025-03-18 17:20:35,656 -  * Debugger PIN: 418-679-841
+2025-03-18 17:20:39,659 - 127.0.0.1 - - [18/Mar/2025 17:20:39] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:20:39,676 - 127.0.0.1 - - [18/Mar/2025 17:20:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 17:20:39,693 - 127.0.0.1 - - [18/Mar/2025 17:20:39] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:20:39,836 - 127.0.0.1 - - [18/Mar/2025 17:20:39] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:20:39,858 - 127.0.0.1 - - [18/Mar/2025 17:20:39] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:20:40,772 - 127.0.0.1 - - [18/Mar/2025 17:20:40] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:20:40,785 - 127.0.0.1 - - [18/Mar/2025 17:20:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:20:40,797 - 127.0.0.1 - - [18/Mar/2025 17:20:40] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:20:40,944 - 127.0.0.1 - - [18/Mar/2025 17:20:40] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:20:40,957 - 127.0.0.1 - - [18/Mar/2025 17:20:40] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:20:40,983 - 127.0.0.1 - - [18/Mar/2025 17:20:40] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:20:40,997 - 127.0.0.1 - - [18/Mar/2025 17:20:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:20:40,999 - 127.0.0.1 - - [18/Mar/2025 17:20:40] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:20:41,127 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:20:41,143 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:20:41,233 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:20:41,241 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:20:41,244 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:20:41,378 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:20:41,396 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:20:41,484 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:20:41,491 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:20:41,494 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:20:41,628 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:20:41,644 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:20:41,717 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:20:41,722 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:20:41,725 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:20:41,866 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:20:41,888 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:20:41,916 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:20:41,921 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:20:41,923 - 127.0.0.1 - - [18/Mar/2025 17:20:41] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:20:42,051 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:20:42,068 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:20:42,151 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:20:42,158 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:20:42,162 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:20:42,295 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:20:42,312 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:20:42,367 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:20:42,372 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:20:42,375 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:20:42,505 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:20:42,523 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:20:42,583 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:20:42,589 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:20:42,592 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:20:42,722 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:20:42,741 - 127.0.0.1 - - [18/Mar/2025 17:20:42] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:20:43,505 - 127.0.0.1 - - [18/Mar/2025 17:20:43] "GET / HTTP/1.1" 200 -
+2025-03-18 17:20:43,515 - 127.0.0.1 - - [18/Mar/2025 17:20:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:20:46,141 - 127.0.0.1 - - [18/Mar/2025 17:20:46] "GET / HTTP/1.1" 200 -
+2025-03-18 17:20:46,153 - 127.0.0.1 - - [18/Mar/2025 17:20:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:20:46,341 - 127.0.0.1 - - [18/Mar/2025 17:20:46] "GET / HTTP/1.1" 200 -
+2025-03-18 17:20:46,352 - 127.0.0.1 - - [18/Mar/2025 17:20:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:20:46,558 - 127.0.0.1 - - [18/Mar/2025 17:20:46] "GET / HTTP/1.1" 200 -
+2025-03-18 17:20:46,572 - 127.0.0.1 - - [18/Mar/2025 17:20:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:20:46,758 - 127.0.0.1 - - [18/Mar/2025 17:20:46] "GET / HTTP/1.1" 200 -
+2025-03-18 17:20:46,772 - 127.0.0.1 - - [18/Mar/2025 17:20:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:20:46,939 - 127.0.0.1 - - [18/Mar/2025 17:20:46] "GET / HTTP/1.1" 200 -
+2025-03-18 17:20:46,950 - 127.0.0.1 - - [18/Mar/2025 17:20:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:21:09,958 - 127.0.0.1 - - [18/Mar/2025 17:21:09] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:21:09,974 - 127.0.0.1 - - [18/Mar/2025 17:21:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:21:09,982 - 127.0.0.1 - - [18/Mar/2025 17:21:09] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:21:10,131 - 127.0.0.1 - - [18/Mar/2025 17:21:10] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:21:10,148 - 127.0.0.1 - - [18/Mar/2025 17:21:10] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:25:09,397 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/controllers/bulk_controller.py', reloading
+2025-03-18 17:25:09,467 -  * Restarting with stat
+2025-03-18 17:25:09,859 -  * Debugger is active!
+2025-03-18 17:25:09,863 -  * Debugger PIN: 418-679-841
+2025-03-18 17:26:17,584 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 17:26:17,584 - [33mPress CTRL+C to quit[0m
+2025-03-18 17:26:17,585 -  * Restarting with stat
+2025-03-18 17:26:17,856 -  * Debugger is active!
+2025-03-18 17:26:17,860 -  * Debugger PIN: 418-679-841
+2025-03-18 17:26:21,197 - 127.0.0.1 - - [18/Mar/2025 17:26:21] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:26:21,217 - 127.0.0.1 - - [18/Mar/2025 17:26:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 17:26:21,232 - 127.0.0.1 - - [18/Mar/2025 17:26:21] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:26:21,378 - 127.0.0.1 - - [18/Mar/2025 17:26:21] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:26:21,397 - 127.0.0.1 - - [18/Mar/2025 17:26:21] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:26:30,036 - 127.0.0.1 - - [18/Mar/2025 17:26:30] "[33mGET /bulk/temperature?city=&date= HTTP/1.1[0m" 404 -
+2025-03-18 17:26:32,220 - 127.0.0.1 - - [18/Mar/2025 17:26:32] "GET / HTTP/1.1" 200 -
+2025-03-18 17:26:32,233 - 127.0.0.1 - - [18/Mar/2025 17:26:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:26:39,091 - 127.0.0.1 - - [18/Mar/2025 17:26:39] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:26:39,108 - 127.0.0.1 - - [18/Mar/2025 17:26:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:26:39,115 - 127.0.0.1 - - [18/Mar/2025 17:26:39] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:26:39,263 - 127.0.0.1 - - [18/Mar/2025 17:26:39] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:26:39,281 - 127.0.0.1 - - [18/Mar/2025 17:26:39] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:26:47,058 - 127.0.0.1 - - [18/Mar/2025 17:26:47] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:26:47,071 - 127.0.0.1 - - [18/Mar/2025 17:26:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:26:47,076 - 127.0.0.1 - - [18/Mar/2025 17:26:47] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:26:47,226 - 127.0.0.1 - - [18/Mar/2025 17:26:47] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:26:47,242 - 127.0.0.1 - - [18/Mar/2025 17:26:47] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:36:20,053 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 17:36:20,053 - [33mPress CTRL+C to quit[0m
+2025-03-18 17:36:20,054 -  * Restarting with stat
+2025-03-18 17:36:20,317 -  * Debugger is active!
+2025-03-18 17:36:20,321 -  * Debugger PIN: 418-679-841
+2025-03-18 17:36:24,347 - 127.0.0.1 - - [18/Mar/2025 17:36:24] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:36:24,367 - 127.0.0.1 - - [18/Mar/2025 17:36:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 17:36:24,383 - 127.0.0.1 - - [18/Mar/2025 17:36:24] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:36:24,558 - 127.0.0.1 - - [18/Mar/2025 17:36:24] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:36:24,575 - 127.0.0.1 - - [18/Mar/2025 17:36:24] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:36:32,353 - 127.0.0.1 - - [18/Mar/2025 17:36:32] "[33mGET /bulk/temperature?city=&date= HTTP/1.1[0m" 404 -
+2025-03-18 17:36:36,835 - 127.0.0.1 - - [18/Mar/2025 17:36:36] "[33mGET /bulk/temperature?city=Talkeetna&date= HTTP/1.1[0m" 404 -
+2025-03-18 17:36:43,168 - 127.0.0.1 - - [18/Mar/2025 17:36:43] "[33mGET /bulk/temperature?city=Talkeetna&date=2025-03-05 HTTP/1.1[0m" 404 -
+2025-03-18 17:36:49,654 - 127.0.0.1 - - [18/Mar/2025 17:36:49] "[33mGET /bulk/temperature?city=Madison&date=2025-03-05 HTTP/1.1[0m" 404 -
+2025-03-18 17:36:55,602 - 127.0.0.1 - - [18/Mar/2025 17:36:55] "[33mGET /bulk/temperature?city=Utqiagvik%20(Barrow)&date=2025-03-05 HTTP/1.1[0m" 404 -
+2025-03-18 17:37:21,402 - 127.0.0.1 - - [18/Mar/2025 17:37:21] "GET / HTTP/1.1" 200 -
+2025-03-18 17:37:21,413 - 127.0.0.1 - - [18/Mar/2025 17:37:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:37:24,427 - 127.0.0.1 - - [18/Mar/2025 17:37:24] "GET /?page=2 HTTP/1.1" 200 -
+2025-03-18 17:37:24,442 - 127.0.0.1 - - [18/Mar/2025 17:37:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:37:25,977 - 127.0.0.1 - - [18/Mar/2025 17:37:25] "GET /?page=3 HTTP/1.1" 200 -
+2025-03-18 17:37:25,992 - 127.0.0.1 - - [18/Mar/2025 17:37:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:37:26,596 - 127.0.0.1 - - [18/Mar/2025 17:37:26] "GET /?page=2 HTTP/1.1" 200 -
+2025-03-18 17:37:26,610 - 127.0.0.1 - - [18/Mar/2025 17:37:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:37:27,042 - 127.0.0.1 - - [18/Mar/2025 17:37:27] "GET /?page=1 HTTP/1.1" 200 -
+2025-03-18 17:37:27,059 - 127.0.0.1 - - [18/Mar/2025 17:37:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:37:28,474 - 127.0.0.1 - - [18/Mar/2025 17:37:28] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:37:28,492 - 127.0.0.1 - - [18/Mar/2025 17:37:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:37:28,507 - 127.0.0.1 - - [18/Mar/2025 17:37:28] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:37:28,664 - 127.0.0.1 - - [18/Mar/2025 17:37:28] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:37:28,685 - 127.0.0.1 - - [18/Mar/2025 17:37:28] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:41:27,220 - 127.0.0.1 - - [18/Mar/2025 17:41:27] "GET / HTTP/1.1" 200 -
+2025-03-18 17:41:27,238 - 127.0.0.1 - - [18/Mar/2025 17:41:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:46:04,561 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 17:46:04,561 - [33mPress CTRL+C to quit[0m
+2025-03-18 17:46:04,561 -  * Restarting with stat
+2025-03-18 17:46:04,823 -  * Debugger is active!
+2025-03-18 17:46:04,828 -  * Debugger PIN: 418-679-841
+2025-03-18 17:46:09,234 - 127.0.0.1 - - [18/Mar/2025 17:46:09] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:46:09,247 - 127.0.0.1 - - [18/Mar/2025 17:46:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 17:46:09,264 - 127.0.0.1 - - [18/Mar/2025 17:46:09] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:46:09,416 - 127.0.0.1 - - [18/Mar/2025 17:46:09] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:46:09,421 - 127.0.0.1 - - [18/Mar/2025 17:46:09] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 17:46:21,842 - 127.0.0.1 - - [18/Mar/2025 17:46:21] "GET / HTTP/1.1" 200 -
+2025-03-18 17:46:21,860 - 127.0.0.1 - - [18/Mar/2025 17:46:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:54:47,750 - 127.0.0.1 - - [18/Mar/2025 17:54:47] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 17:54:47,769 - 127.0.0.1 - - [18/Mar/2025 17:54:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 17:54:47,780 - 127.0.0.1 - - [18/Mar/2025 17:54:47] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 17:54:47,927 - 127.0.0.1 - - [18/Mar/2025 17:54:47] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 17:54:47,943 - 127.0.0.1 - - [18/Mar/2025 17:54:47] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:00:18,257 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 18:00:18,257 - [33mPress CTRL+C to quit[0m
+2025-03-18 18:00:18,258 -  * Restarting with stat
+2025-03-18 18:00:18,519 -  * Debugger is active!
+2025-03-18 18:00:18,523 -  * Debugger PIN: 418-679-841
+2025-03-18 18:00:24,194 - 127.0.0.1 - - [18/Mar/2025 18:00:24] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:00:24,211 - 127.0.0.1 - - [18/Mar/2025 18:00:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 18:00:24,219 - 127.0.0.1 - - [18/Mar/2025 18:00:24] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:00:24,363 - 127.0.0.1 - - [18/Mar/2025 18:00:24] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:00:24,380 - 127.0.0.1 - - [18/Mar/2025 18:00:24] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:00:37,485 - 127.0.0.1 - - [18/Mar/2025 18:00:37] "GET / HTTP/1.1" 200 -
+2025-03-18 18:00:37,500 - 127.0.0.1 - - [18/Mar/2025 18:00:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:00:46,471 - 127.0.0.1 - - [18/Mar/2025 18:00:46] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:00:46,484 - 127.0.0.1 - - [18/Mar/2025 18:00:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:00:46,490 - 127.0.0.1 - - [18/Mar/2025 18:00:46] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:00:46,642 - 127.0.0.1 - - [18/Mar/2025 18:00:46] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:00:46,656 - 127.0.0.1 - - [18/Mar/2025 18:00:46] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:03:58,319 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 18:03:58,319 - [33mPress CTRL+C to quit[0m
+2025-03-18 18:03:58,320 -  * Restarting with stat
+2025-03-18 18:03:58,588 -  * Debugger is active!
+2025-03-18 18:03:58,592 -  * Debugger PIN: 418-679-841
+2025-03-18 18:04:02,661 - 127.0.0.1 - - [18/Mar/2025 18:04:02] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:04:02,681 - 127.0.0.1 - - [18/Mar/2025 18:04:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:04:02,704 - 127.0.0.1 - - [18/Mar/2025 18:04:02] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:04:02,838 - 127.0.0.1 - - [18/Mar/2025 18:04:02] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:04:02,852 - 127.0.0.1 - - [18/Mar/2025 18:04:02] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:13:36,884 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 18:13:36,884 - [33mPress CTRL+C to quit[0m
+2025-03-18 18:13:36,885 -  * Restarting with stat
+2025-03-18 18:13:37,145 -  * Debugger is active!
+2025-03-18 18:13:37,150 -  * Debugger PIN: 418-679-841
+2025-03-18 18:13:41,124 - 127.0.0.1 - - [18/Mar/2025 18:13:41] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:13:41,132 - 127.0.0.1 - - [18/Mar/2025 18:13:41] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 18:13:41,144 - 127.0.0.1 - - [18/Mar/2025 18:13:41] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:13:41,280 - 127.0.0.1 - - [18/Mar/2025 18:13:41] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:13:41,303 - 127.0.0.1 - - [18/Mar/2025 18:13:41] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:13:48,168 - 127.0.0.1 - - [18/Mar/2025 18:13:48] "GET / HTTP/1.1" 200 -
+2025-03-18 18:13:48,173 - 127.0.0.1 - - [18/Mar/2025 18:13:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:13:51,172 - 127.0.0.1 - - [18/Mar/2025 18:13:51] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:13:51,186 - 127.0.0.1 - - [18/Mar/2025 18:13:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:13:51,204 - 127.0.0.1 - - [18/Mar/2025 18:13:51] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:13:51,353 - 127.0.0.1 - - [18/Mar/2025 18:13:51] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:13:51,367 - 127.0.0.1 - - [18/Mar/2025 18:13:51] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:15:16,581 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 18:15:16,581 - [33mPress CTRL+C to quit[0m
+2025-03-18 18:15:16,581 -  * Restarting with stat
+2025-03-18 18:15:16,844 -  * Debugger is active!
+2025-03-18 18:15:16,848 -  * Debugger PIN: 418-679-841
+2025-03-18 18:15:20,687 - 127.0.0.1 - - [18/Mar/2025 18:15:20] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:15:20,694 - 127.0.0.1 - - [18/Mar/2025 18:15:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 18:15:20,702 - 127.0.0.1 - - [18/Mar/2025 18:15:20] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:15:20,843 - 127.0.0.1 - - [18/Mar/2025 18:15:20] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:15:20,849 - 127.0.0.1 - - [18/Mar/2025 18:15:20] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:15:48,203 - 127.0.0.1 - - [18/Mar/2025 18:15:48] "GET / HTTP/1.1" 200 -
+2025-03-18 18:15:48,209 - 127.0.0.1 - - [18/Mar/2025 18:15:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:15:52,805 - 127.0.0.1 - - [18/Mar/2025 18:15:52] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:15:52,819 - 127.0.0.1 - - [18/Mar/2025 18:15:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:15:52,831 - 127.0.0.1 - - [18/Mar/2025 18:15:52] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:15:52,981 - 127.0.0.1 - - [18/Mar/2025 18:15:52] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:15:52,995 - 127.0.0.1 - - [18/Mar/2025 18:15:52] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:19:32,473 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 18:19:32,473 - [33mPress CTRL+C to quit[0m
+2025-03-18 18:19:32,473 -  * Restarting with stat
+2025-03-18 18:19:32,734 -  * Debugger is active!
+2025-03-18 18:19:32,738 -  * Debugger PIN: 418-679-841
+2025-03-18 18:19:36,505 - 127.0.0.1 - - [18/Mar/2025 18:19:36] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:19:36,513 - 127.0.0.1 - - [18/Mar/2025 18:19:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 18:19:36,521 - 127.0.0.1 - - [18/Mar/2025 18:19:36] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:19:36,661 - 127.0.0.1 - - [18/Mar/2025 18:19:36] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:19:36,667 - 127.0.0.1 - - [18/Mar/2025 18:19:36] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:20:17,921 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 18:20:17,921 - [33mPress CTRL+C to quit[0m
+2025-03-18 18:20:17,921 -  * Restarting with stat
+2025-03-18 18:20:18,183 -  * Debugger is active!
+2025-03-18 18:20:18,187 -  * Debugger PIN: 418-679-841
+2025-03-18 18:20:20,670 - 127.0.0.1 - - [18/Mar/2025 18:20:20] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:20:20,677 - 127.0.0.1 - - [18/Mar/2025 18:20:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 18:20:20,686 - 127.0.0.1 - - [18/Mar/2025 18:20:20] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:20:20,826 - 127.0.0.1 - - [18/Mar/2025 18:20:20] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:20:20,832 - 127.0.0.1 - - [18/Mar/2025 18:20:20] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:25:00,891 - 127.0.0.1 - - [18/Mar/2025 18:25:00] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:25:00,896 - 127.0.0.1 - - [18/Mar/2025 18:25:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-18 18:25:00,909 - 127.0.0.1 - - [18/Mar/2025 18:25:00] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:25:01,048 - 127.0.0.1 - - [18/Mar/2025 18:25:01] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:25:01,063 - 127.0.0.1 - - [18/Mar/2025 18:25:01] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:25:08,025 - 127.0.0.1 - - [18/Mar/2025 18:25:08] "GET / HTTP/1.1" 200 -
+2025-03-18 18:25:08,037 - 127.0.0.1 - - [18/Mar/2025 18:25:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:25:09,627 - 127.0.0.1 - - [18/Mar/2025 18:25:09] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:25:09,640 - 127.0.0.1 - - [18/Mar/2025 18:25:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:25:09,654 - 127.0.0.1 - - [18/Mar/2025 18:25:09] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:25:09,801 - 127.0.0.1 - - [18/Mar/2025 18:25:09] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:25:09,818 - 127.0.0.1 - - [18/Mar/2025 18:25:09] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:25:41,996 - 127.0.0.1 - - [18/Mar/2025 18:25:41] "GET / HTTP/1.1" 200 -
+2025-03-18 18:25:42,009 - 127.0.0.1 - - [18/Mar/2025 18:25:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:25:44,110 - 127.0.0.1 - - [18/Mar/2025 18:25:44] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:25:44,125 - 127.0.0.1 - - [18/Mar/2025 18:25:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:25:44,136 - 127.0.0.1 - - [18/Mar/2025 18:25:44] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:25:44,285 - 127.0.0.1 - - [18/Mar/2025 18:25:44] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:25:44,300 - 127.0.0.1 - - [18/Mar/2025 18:25:44] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:25:47,463 - 127.0.0.1 - - [18/Mar/2025 18:25:47] "GET / HTTP/1.1" 200 -
+2025-03-18 18:25:47,481 - 127.0.0.1 - - [18/Mar/2025 18:25:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:25:51,243 - 127.0.0.1 - - [18/Mar/2025 18:25:51] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:25:51,259 - 127.0.0.1 - - [18/Mar/2025 18:25:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:25:51,269 - 127.0.0.1 - - [18/Mar/2025 18:25:51] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:25:51,416 - 127.0.0.1 - - [18/Mar/2025 18:25:51] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:25:51,432 - 127.0.0.1 - - [18/Mar/2025 18:25:51] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:29:25,722 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/controllers/etl_controller.py', reloading
+2025-03-18 18:29:25,798 -  * Restarting with stat
+2025-03-18 18:29:26,200 -  * Debugger is active!
+2025-03-18 18:29:26,204 -  * Debugger PIN: 418-679-841
+2025-03-18 18:30:04,517 - 127.0.0.1 - - [18/Mar/2025 18:30:04] "GET / HTTP/1.1" 200 -
+2025-03-18 18:30:04,535 - 127.0.0.1 - - [18/Mar/2025 18:30:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:31:40,130 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 18:31:40,130 - [33mPress CTRL+C to quit[0m
+2025-03-18 18:31:40,131 -  * Restarting with stat
+2025-03-18 18:31:40,391 -  * Debugger is active!
+2025-03-18 18:31:40,395 -  * Debugger PIN: 418-679-841
+2025-03-18 18:31:44,831 - 127.0.0.1 - - [18/Mar/2025 18:31:44] "GET / HTTP/1.1" 200 -
+2025-03-18 18:31:44,847 - 127.0.0.1 - - [18/Mar/2025 18:31:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:31:45,761 - 127.0.0.1 - - [18/Mar/2025 18:31:45] "GET / HTTP/1.1" 200 -
+2025-03-18 18:31:45,773 - 127.0.0.1 - - [18/Mar/2025 18:31:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:31:46,128 - 127.0.0.1 - - [18/Mar/2025 18:31:46] "GET / HTTP/1.1" 200 -
+2025-03-18 18:31:46,141 - 127.0.0.1 - - [18/Mar/2025 18:31:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:31:47,148 - 127.0.0.1 - - [18/Mar/2025 18:31:47] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:31:47,162 - 127.0.0.1 - - [18/Mar/2025 18:31:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:31:47,182 - 127.0.0.1 - - [18/Mar/2025 18:31:47] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:31:47,332 - 127.0.0.1 - - [18/Mar/2025 18:31:47] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:31:47,348 - 127.0.0.1 - - [18/Mar/2025 18:31:47] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:34:39,650 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 18:34:39,650 - [33mPress CTRL+C to quit[0m
+2025-03-18 18:34:39,651 -  * Restarting with stat
+2025-03-18 18:34:39,913 -  * Debugger is active!
+2025-03-18 18:34:39,917 -  * Debugger PIN: 418-679-841
+2025-03-18 18:34:46,568 - 127.0.0.1 - - [18/Mar/2025 18:34:46] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:34:46,587 - 127.0.0.1 - - [18/Mar/2025 18:34:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:34:46,603 - 127.0.0.1 - - [18/Mar/2025 18:34:46] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:34:46,744 - 127.0.0.1 - - [18/Mar/2025 18:34:46] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:34:46,760 - 127.0.0.1 - - [18/Mar/2025 18:34:46] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:47:25,278 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 18:47:25,279 - [33mPress CTRL+C to quit[0m
+2025-03-18 18:47:25,279 -  * Restarting with stat
+2025-03-18 18:47:25,541 -  * Debugger is active!
+2025-03-18 18:47:25,545 -  * Debugger PIN: 418-679-841
+2025-03-18 18:47:28,387 - 127.0.0.1 - - [18/Mar/2025 18:47:28] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:47:28,408 - 127.0.0.1 - - [18/Mar/2025 18:47:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:47:28,428 - 127.0.0.1 - - [18/Mar/2025 18:47:28] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:47:28,572 - 127.0.0.1 - - [18/Mar/2025 18:47:28] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:47:28,587 - 127.0.0.1 - - [18/Mar/2025 18:47:28] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:47:36,076 - === ETL RUN START ===
+2025-03-18 18:47:36,076 - 127.0.0.1 - - [18/Mar/2025 18:47:36] "GET /etl/run HTTP/1.1" 200 -
+2025-03-18 18:47:36,163 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=15222, run_time=0.09s
+2025-03-18 18:47:36,211 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=15239, run_time=0.14s
+2025-03-18 18:47:36,259 - CHUNK PROCESSED: offset=100000, chunk_size=50000, records_added=15226, run_time=0.18s
+2025-03-18 18:47:36,306 - CHUNK PROCESSED: offset=150000, chunk_size=50000, records_added=15200, run_time=0.23s
+2025-03-18 18:47:36,355 - CHUNK PROCESSED: offset=200000, chunk_size=50000, records_added=15259, run_time=0.28s
+2025-03-18 18:47:36,404 - CHUNK PROCESSED: offset=250000, chunk_size=50000, records_added=15254, run_time=0.33s
+2025-03-18 18:47:36,453 - CHUNK PROCESSED: offset=300000, chunk_size=50000, records_added=15183, run_time=0.38s
+2025-03-18 18:47:36,504 - CHUNK PROCESSED: offset=350000, chunk_size=50000, records_added=15241, run_time=0.43s
+2025-03-18 18:47:36,556 - CHUNK PROCESSED: offset=400000, chunk_size=50000, records_added=15237, run_time=0.48s
+2025-03-18 18:47:36,608 - CHUNK PROCESSED: offset=450000, chunk_size=50000, records_added=15221, run_time=0.53s
+2025-03-18 18:47:36,660 - CHUNK PROCESSED: offset=500000, chunk_size=50000, records_added=15258, run_time=0.58s
+2025-03-18 18:47:36,716 - CHUNK PROCESSED: offset=550000, chunk_size=50000, records_added=15239, run_time=0.64s
+2025-03-18 18:47:36,777 - CHUNK PROCESSED: offset=600000, chunk_size=50000, records_added=15202, run_time=0.70s
+2025-03-18 18:47:36,834 - CHUNK PROCESSED: offset=650000, chunk_size=50000, records_added=15190, run_time=0.76s
+2025-03-18 18:47:36,891 - CHUNK PROCESSED: offset=700000, chunk_size=50000, records_added=15257, run_time=0.82s
+2025-03-18 18:47:36,948 - CHUNK PROCESSED: offset=750000, chunk_size=50000, records_added=15306, run_time=0.87s
+2025-03-18 18:47:37,007 - CHUNK PROCESSED: offset=800000, chunk_size=50000, records_added=15205, run_time=0.93s
+2025-03-18 18:47:37,066 - CHUNK PROCESSED: offset=850000, chunk_size=50000, records_added=15302, run_time=0.99s
+2025-03-18 18:47:37,125 - CHUNK PROCESSED: offset=900000, chunk_size=50000, records_added=15248, run_time=1.05s
+2025-03-18 18:47:37,188 - CHUNK PROCESSED: offset=950000, chunk_size=50000, records_added=15226, run_time=1.11s
+2025-03-18 18:47:37,199 - === ETL RUN COMPLETED in 1.12s. Total records processed: 1000000 ===
+2025-03-18 18:47:40,009 - 127.0.0.1 - - [18/Mar/2025 18:47:40] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:47:44,180 - 127.0.0.1 - - [18/Mar/2025 18:47:44] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:47:47,876 - 127.0.0.1 - - [18/Mar/2025 18:47:47] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:47:48,509 - 127.0.0.1 - - [18/Mar/2025 18:47:48] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:47:48,859 - 127.0.0.1 - - [18/Mar/2025 18:47:48] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:47:49,259 - 127.0.0.1 - - [18/Mar/2025 18:47:49] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:47:50,042 - 127.0.0.1 - - [18/Mar/2025 18:47:50] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:47:50,408 - 127.0.0.1 - - [18/Mar/2025 18:47:50] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:47:50,742 - 127.0.0.1 - - [18/Mar/2025 18:47:50] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:47:51,226 - 127.0.0.1 - - [18/Mar/2025 18:47:51] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:47:56,358 - 127.0.0.1 - - [18/Mar/2025 18:47:56] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:47:57,442 - === ETL RUN START ===
+2025-03-18 18:47:57,443 - 127.0.0.1 - - [18/Mar/2025 18:47:57] "GET /etl/run HTTP/1.1" 200 -
+2025-03-18 18:47:57,523 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=15222, run_time=0.08s
+2025-03-18 18:47:57,572 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=15239, run_time=0.13s
+2025-03-18 18:47:57,620 - CHUNK PROCESSED: offset=100000, chunk_size=50000, records_added=15226, run_time=0.18s
+2025-03-18 18:47:57,668 - CHUNK PROCESSED: offset=150000, chunk_size=50000, records_added=15200, run_time=0.23s
+2025-03-18 18:47:57,724 - CHUNK PROCESSED: offset=200000, chunk_size=50000, records_added=15259, run_time=0.28s
+2025-03-18 18:47:57,774 - CHUNK PROCESSED: offset=250000, chunk_size=50000, records_added=15254, run_time=0.33s
+2025-03-18 18:47:57,824 - CHUNK PROCESSED: offset=300000, chunk_size=50000, records_added=15183, run_time=0.38s
+2025-03-18 18:47:57,876 - CHUNK PROCESSED: offset=350000, chunk_size=50000, records_added=15241, run_time=0.43s
+2025-03-18 18:47:57,928 - CHUNK PROCESSED: offset=400000, chunk_size=50000, records_added=15237, run_time=0.49s
+2025-03-18 18:47:57,980 - CHUNK PROCESSED: offset=450000, chunk_size=50000, records_added=15221, run_time=0.54s
+2025-03-18 18:47:58,033 - CHUNK PROCESSED: offset=500000, chunk_size=50000, records_added=15258, run_time=0.59s
+2025-03-18 18:47:58,087 - CHUNK PROCESSED: offset=550000, chunk_size=50000, records_added=15239, run_time=0.65s
+2025-03-18 18:47:58,144 - CHUNK PROCESSED: offset=600000, chunk_size=50000, records_added=15202, run_time=0.70s
+2025-03-18 18:47:58,215 - CHUNK PROCESSED: offset=650000, chunk_size=50000, records_added=15190, run_time=0.77s
+2025-03-18 18:47:58,272 - CHUNK PROCESSED: offset=700000, chunk_size=50000, records_added=15257, run_time=0.83s
+2025-03-18 18:47:58,331 - CHUNK PROCESSED: offset=750000, chunk_size=50000, records_added=15306, run_time=0.89s
+2025-03-18 18:47:58,390 - CHUNK PROCESSED: offset=800000, chunk_size=50000, records_added=15205, run_time=0.95s
+2025-03-18 18:47:58,449 - CHUNK PROCESSED: offset=850000, chunk_size=50000, records_added=15302, run_time=1.01s
+2025-03-18 18:47:58,512 - CHUNK PROCESSED: offset=900000, chunk_size=50000, records_added=15248, run_time=1.07s
+2025-03-18 18:47:58,574 - CHUNK PROCESSED: offset=950000, chunk_size=50000, records_added=15226, run_time=1.13s
+2025-03-18 18:47:58,584 - === ETL RUN COMPLETED in 1.14s. Total records processed: 1000000 ===
+2025-03-18 18:47:59,642 - 127.0.0.1 - - [18/Mar/2025 18:47:59] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:48:03,795 - 127.0.0.1 - - [18/Mar/2025 18:48:03] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:48:08,876 - 127.0.0.1 - - [18/Mar/2025 18:48:08] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:48:11,709 - 127.0.0.1 - - [18/Mar/2025 18:48:11] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:51:21,527 - 127.0.0.1 - - [18/Mar/2025 18:51:21] "GET / HTTP/1.1" 200 -
+2025-03-18 18:51:21,539 - 127.0.0.1 - - [18/Mar/2025 18:51:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:51:27,233 - 127.0.0.1 - - [18/Mar/2025 18:51:27] "GET /?page=2 HTTP/1.1" 200 -
+2025-03-18 18:51:27,247 - 127.0.0.1 - - [18/Mar/2025 18:51:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:51:28,883 - 127.0.0.1 - - [18/Mar/2025 18:51:28] "GET /?page=3 HTTP/1.1" 200 -
+2025-03-18 18:51:28,897 - 127.0.0.1 - - [18/Mar/2025 18:51:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:51:31,201 - 127.0.0.1 - - [18/Mar/2025 18:51:31] "GET /?page=2 HTTP/1.1" 200 -
+2025-03-18 18:51:31,216 - 127.0.0.1 - - [18/Mar/2025 18:51:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:51:32,938 - 127.0.0.1 - - [18/Mar/2025 18:51:32] "GET /?page=3 HTTP/1.1" 200 -
+2025-03-18 18:51:32,954 - 127.0.0.1 - - [18/Mar/2025 18:51:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:51:34,401 - 127.0.0.1 - - [18/Mar/2025 18:51:34] "GET /?page=4 HTTP/1.1" 200 -
+2025-03-18 18:51:34,416 - 127.0.0.1 - - [18/Mar/2025 18:51:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:51:37,244 - 127.0.0.1 - - [18/Mar/2025 18:51:37] "GET /?page=5 HTTP/1.1" 200 -
+2025-03-18 18:51:37,261 - 127.0.0.1 - - [18/Mar/2025 18:51:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:51:38,924 - 127.0.0.1 - - [18/Mar/2025 18:51:38] "GET /?page=6 HTTP/1.1" 200 -
+2025-03-18 18:51:38,939 - 127.0.0.1 - - [18/Mar/2025 18:51:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:51:39,971 - 127.0.0.1 - - [18/Mar/2025 18:51:39] "GET /?page=5 HTTP/1.1" 200 -
+2025-03-18 18:51:39,987 - 127.0.0.1 - - [18/Mar/2025 18:51:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:51:40,954 - 127.0.0.1 - - [18/Mar/2025 18:51:40] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:51:40,970 - 127.0.0.1 - - [18/Mar/2025 18:51:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:51:40,989 - 127.0.0.1 - - [18/Mar/2025 18:51:40] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:51:41,139 - 127.0.0.1 - - [18/Mar/2025 18:51:41] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:51:41,431 - 127.0.0.1 - - [18/Mar/2025 18:51:41] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:51:45,986 - 127.0.0.1 - - [18/Mar/2025 18:51:45] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:54:11,657 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/controllers/etl_controller.py', reloading
+2025-03-18 18:54:11,723 -  * Restarting with stat
+2025-03-18 18:54:12,044 -  * Debugger is active!
+2025-03-18 18:54:12,048 -  * Debugger PIN: 418-679-841
+2025-03-18 18:54:23,878 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 18:54:23,878 - [33mPress CTRL+C to quit[0m
+2025-03-18 18:54:23,878 -  * Restarting with stat
+2025-03-18 18:54:24,142 -  * Debugger is active!
+2025-03-18 18:54:24,146 -  * Debugger PIN: 418-679-841
+2025-03-18 18:54:29,163 - 127.0.0.1 - - [18/Mar/2025 18:54:29] "GET /dashboard HTTP/1.1" 200 -
+2025-03-18 18:54:29,189 - 127.0.0.1 - - [18/Mar/2025 18:54:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-18 18:54:29,200 - 127.0.0.1 - - [18/Mar/2025 18:54:29] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:54:29,203 - 127.0.0.1 - - [18/Mar/2025 18:54:29] "GET /etl/cleaned_data HTTP/1.1" 200 -
+2025-03-18 18:54:29,345 - 127.0.0.1 - - [18/Mar/2025 18:54:29] "GET /bulk/cities HTTP/1.1" 200 -
+2025-03-18 18:54:29,622 - 127.0.0.1 - - [18/Mar/2025 18:54:29] "GET /bulk/clean_data HTTP/1.1" 200 -
+2025-03-18 18:54:43,028 - === ETL RUN START ===
+2025-03-18 18:54:43,028 - 127.0.0.1 - - [18/Mar/2025 18:54:43] "GET /etl/run HTTP/1.1" 200 -
+2025-03-18 18:54:43,112 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=15222, run_time=0.08s
+2025-03-18 18:54:43,163 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=15239, run_time=0.13s
+2025-03-18 18:54:43,211 - CHUNK PROCESSED: offset=100000, chunk_size=50000, records_added=15226, run_time=0.18s
+2025-03-18 18:54:43,258 - CHUNK PROCESSED: offset=150000, chunk_size=50000, records_added=15200, run_time=0.23s
+2025-03-18 18:54:43,306 - CHUNK PROCESSED: offset=200000, chunk_size=50000, records_added=15259, run_time=0.28s
+2025-03-18 18:54:43,356 - CHUNK PROCESSED: offset=250000, chunk_size=50000, records_added=15254, run_time=0.33s
+2025-03-18 18:54:43,408 - CHUNK PROCESSED: offset=300000, chunk_size=50000, records_added=15183, run_time=0.38s
+2025-03-18 18:54:43,460 - CHUNK PROCESSED: offset=350000, chunk_size=50000, records_added=15241, run_time=0.43s
+2025-03-18 18:54:43,519 - CHUNK PROCESSED: offset=400000, chunk_size=50000, records_added=15237, run_time=0.49s
+2025-03-18 18:54:43,571 - CHUNK PROCESSED: offset=450000, chunk_size=50000, records_added=15221, run_time=0.54s
+2025-03-18 18:54:43,626 - CHUNK PROCESSED: offset=500000, chunk_size=50000, records_added=15258, run_time=0.60s
+2025-03-18 18:54:43,682 - CHUNK PROCESSED: offset=550000, chunk_size=50000, records_added=15239, run_time=0.65s
+2025-03-18 18:54:43,739 - CHUNK PROCESSED: offset=600000, chunk_size=50000, records_added=15202, run_time=0.71s
+2025-03-18 18:54:43,796 - CHUNK PROCESSED: offset=650000, chunk_size=50000, records_added=15190, run_time=0.77s
+2025-03-18 18:54:43,854 - CHUNK PROCESSED: offset=700000, chunk_size=50000, records_added=15257, run_time=0.83s
+2025-03-18 18:54:43,913 - CHUNK PROCESSED: offset=750000, chunk_size=50000, records_added=15306, run_time=0.88s
+2025-03-18 18:54:43,971 - CHUNK PROCESSED: offset=800000, chunk_size=50000, records_added=15205, run_time=0.94s
+2025-03-18 18:54:44,029 - CHUNK PROCESSED: offset=850000, chunk_size=50000, records_added=15302, run_time=1.00s
+2025-03-18 18:54:44,089 - CHUNK PROCESSED: offset=900000, chunk_size=50000, records_added=15248, run_time=1.06s
+2025-03-18 18:54:44,150 - CHUNK PROCESSED: offset=950000, chunk_size=50000, records_added=15226, run_time=1.12s
+2025-03-18 18:54:44,161 - === ETL RUN COMPLETED in 1.13s. Total records processed: 1000000 ===
+2025-03-18 18:54:47,548 - 127.0.0.1 - - [18/Mar/2025 18:54:47] "GET /etl/cleaned_data HTTP/1.1" 200 -
+2025-03-18 18:54:48,465 - 127.0.0.1 - - [18/Mar/2025 18:54:48] "GET /etl/cleaned_data HTTP/1.1" 200 -
+2025-03-18 18:54:49,480 - 127.0.0.1 - - [18/Mar/2025 18:54:49] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:54:50,484 - 127.0.0.1 - - [18/Mar/2025 18:54:50] "GET /etl/cleaned_data HTTP/1.1" 200 -
+2025-03-18 18:54:51,314 - 127.0.0.1 - - [18/Mar/2025 18:54:51] "GET /etl/cleaned_data HTTP/1.1" 200 -
+2025-03-18 18:54:51,964 - 127.0.0.1 - - [18/Mar/2025 18:54:51] "GET /etl/cleaned_data HTTP/1.1" 200 -
+2025-03-18 18:54:55,081 - 127.0.0.1 - - [18/Mar/2025 18:54:55] "GET /etl/cleaned_data HTTP/1.1" 200 -
+2025-03-18 18:54:55,314 - 127.0.0.1 - - [18/Mar/2025 18:54:55] "GET /etl/cleaned_data HTTP/1.1" 200 -
+2025-03-18 18:54:55,547 - 127.0.0.1 - - [18/Mar/2025 18:54:55] "GET /etl/cleaned_data HTTP/1.1" 200 -
+2025-03-18 18:54:55,763 - 127.0.0.1 - - [18/Mar/2025 18:54:55] "GET /etl/cleaned_data HTTP/1.1" 200 -
+2025-03-18 18:54:55,980 - 127.0.0.1 - - [18/Mar/2025 18:54:55] "GET /etl/cleaned_data HTTP/1.1" 200 -
+2025-03-18 18:55:52,145 - 127.0.0.1 - - [18/Mar/2025 18:55:52] "GET /etl/status HTTP/1.1" 200 -
+2025-03-18 18:59:30,481 -  * Detected change in '/Users/shubhamsudhakarindulkar/Documents/etl-saurabh/etl_project/app.py', reloading
+2025-03-18 18:59:30,547 -  * Restarting with stat
+2025-03-18 18:59:47,185 -  * Restarting with stat
+2025-03-18 19:00:02,324 - === ETL RUN START ===
+2025-03-18 19:00:02,421 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=13818, run_time=0.10s
+2025-03-18 19:00:02,468 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=13800, run_time=0.14s
+2025-03-18 19:00:02,516 - CHUNK PROCESSED: offset=100000, chunk_size=50000, records_added=13781, run_time=0.19s
+2025-03-18 19:00:02,563 - CHUNK PROCESSED: offset=150000, chunk_size=50000, records_added=13757, run_time=0.24s
+2025-03-18 19:00:02,611 - CHUNK PROCESSED: offset=200000, chunk_size=50000, records_added=13754, run_time=0.29s
+2025-03-18 19:00:02,661 - CHUNK PROCESSED: offset=250000, chunk_size=50000, records_added=13804, run_time=0.34s
+2025-03-18 19:00:02,711 - CHUNK PROCESSED: offset=300000, chunk_size=50000, records_added=13695, run_time=0.39s
+2025-03-18 19:00:02,762 - CHUNK PROCESSED: offset=350000, chunk_size=50000, records_added=13837, run_time=0.44s
+2025-03-18 19:00:02,813 - CHUNK PROCESSED: offset=400000, chunk_size=50000, records_added=13849, run_time=0.49s
+2025-03-18 19:00:02,869 - CHUNK PROCESSED: offset=450000, chunk_size=50000, records_added=13720, run_time=0.55s
+2025-03-18 19:00:02,923 - CHUNK PROCESSED: offset=500000, chunk_size=50000, records_added=13792, run_time=0.60s
+2025-03-18 19:00:02,978 - CHUNK PROCESSED: offset=550000, chunk_size=50000, records_added=13732, run_time=0.65s
+2025-03-18 19:00:03,035 - CHUNK PROCESSED: offset=600000, chunk_size=50000, records_added=13730, run_time=0.71s
+2025-03-18 19:00:03,092 - CHUNK PROCESSED: offset=650000, chunk_size=50000, records_added=13730, run_time=0.77s
+2025-03-18 19:00:03,150 - CHUNK PROCESSED: offset=700000, chunk_size=50000, records_added=13821, run_time=0.83s
+2025-03-18 19:00:03,207 - CHUNK PROCESSED: offset=750000, chunk_size=50000, records_added=13881, run_time=0.88s
+2025-03-18 19:00:03,264 - CHUNK PROCESSED: offset=800000, chunk_size=50000, records_added=13832, run_time=0.94s
+2025-03-18 19:00:03,324 - CHUNK PROCESSED: offset=850000, chunk_size=50000, records_added=13828, run_time=1.00s
+2025-03-18 19:00:03,388 - CHUNK PROCESSED: offset=900000, chunk_size=50000, records_added=13793, run_time=1.06s
+2025-03-18 19:00:03,450 - CHUNK PROCESSED: offset=950000, chunk_size=50000, records_added=13771, run_time=1.13s
+2025-03-18 19:00:03,461 - === ETL RUN COMPLETED in 1.14s. Total records processed: 1000000 ===
+2025-03-18 19:11:54,732 - === ETL RUN START ===
+2025-03-18 19:11:54,819 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=13785, run_time=0.09s
+2025-03-18 19:11:54,869 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=13842, run_time=0.14s
+2025-03-18 19:11:54,916 - CHUNK PROCESSED: offset=100000, chunk_size=50000, records_added=13764, run_time=0.18s
+2025-03-18 19:11:54,964 - CHUNK PROCESSED: offset=150000, chunk_size=50000, records_added=13776, run_time=0.23s
+2025-03-18 19:11:55,012 - CHUNK PROCESSED: offset=200000, chunk_size=50000, records_added=13760, run_time=0.28s
+2025-03-18 19:11:55,060 - CHUNK PROCESSED: offset=250000, chunk_size=50000, records_added=13821, run_time=0.33s
+2025-03-18 19:11:55,110 - CHUNK PROCESSED: offset=300000, chunk_size=50000, records_added=13798, run_time=0.38s
+2025-03-18 19:11:55,168 - CHUNK PROCESSED: offset=350000, chunk_size=50000, records_added=13810, run_time=0.44s
+2025-03-18 19:11:55,220 - CHUNK PROCESSED: offset=400000, chunk_size=50000, records_added=13853, run_time=0.49s
+2025-03-18 19:11:55,274 - CHUNK PROCESSED: offset=450000, chunk_size=50000, records_added=13748, run_time=0.54s
+2025-03-18 19:11:55,330 - CHUNK PROCESSED: offset=500000, chunk_size=50000, records_added=13840, run_time=0.60s
+2025-03-18 19:11:55,384 - CHUNK PROCESSED: offset=550000, chunk_size=50000, records_added=13792, run_time=0.65s
+2025-03-18 19:11:55,441 - CHUNK PROCESSED: offset=600000, chunk_size=50000, records_added=13842, run_time=0.71s
+2025-03-18 19:11:55,500 - CHUNK PROCESSED: offset=650000, chunk_size=50000, records_added=13809, run_time=0.77s
+2025-03-18 19:11:55,558 - CHUNK PROCESSED: offset=700000, chunk_size=50000, records_added=13870, run_time=0.83s
+2025-03-18 19:11:55,616 - CHUNK PROCESSED: offset=750000, chunk_size=50000, records_added=13717, run_time=0.88s
+2025-03-18 19:11:55,676 - CHUNK PROCESSED: offset=800000, chunk_size=50000, records_added=13830, run_time=0.94s
+2025-03-18 19:11:55,736 - CHUNK PROCESSED: offset=850000, chunk_size=50000, records_added=13820, run_time=1.00s
+2025-03-18 19:11:55,797 - CHUNK PROCESSED: offset=900000, chunk_size=50000, records_added=13769, run_time=1.06s
+2025-03-18 19:11:55,862 - CHUNK PROCESSED: offset=950000, chunk_size=50000, records_added=13788, run_time=1.13s
+2025-03-18 19:11:55,873 - === ETL RUN COMPLETED in 1.14s. Total records processed: 1000000 ===
+2025-03-18 19:11:55,909 - Failed to send email to tsaurabh2021@gmail.com: [Errno 8] nodename nor servname provided, or not known
+2025-03-18 19:15:13,363 - === ETL RUN START ===
+2025-03-18 19:15:13,442 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=13785, run_time=0.08s
+2025-03-18 19:15:13,492 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=13842, run_time=0.13s
+2025-03-18 19:15:13,541 - CHUNK PROCESSED: offset=100000, chunk_size=50000, records_added=13764, run_time=0.18s
+2025-03-18 19:15:13,590 - CHUNK PROCESSED: offset=150000, chunk_size=50000, records_added=13776, run_time=0.23s
+2025-03-18 19:15:13,640 - CHUNK PROCESSED: offset=200000, chunk_size=50000, records_added=13760, run_time=0.28s
+2025-03-18 19:15:13,690 - CHUNK PROCESSED: offset=250000, chunk_size=50000, records_added=13821, run_time=0.33s
+2025-03-18 19:15:13,743 - CHUNK PROCESSED: offset=300000, chunk_size=50000, records_added=13798, run_time=0.38s
+2025-03-18 19:15:13,799 - CHUNK PROCESSED: offset=350000, chunk_size=50000, records_added=13810, run_time=0.44s
+2025-03-18 19:15:13,854 - CHUNK PROCESSED: offset=400000, chunk_size=50000, records_added=13853, run_time=0.49s
+2025-03-18 19:15:13,910 - CHUNK PROCESSED: offset=450000, chunk_size=50000, records_added=13748, run_time=0.55s
+2025-03-18 19:15:13,966 - CHUNK PROCESSED: offset=500000, chunk_size=50000, records_added=13840, run_time=0.60s
+2025-03-18 19:15:14,023 - CHUNK PROCESSED: offset=550000, chunk_size=50000, records_added=13792, run_time=0.66s
+2025-03-18 19:15:14,082 - CHUNK PROCESSED: offset=600000, chunk_size=50000, records_added=13842, run_time=0.72s
+2025-03-18 19:15:14,142 - CHUNK PROCESSED: offset=650000, chunk_size=50000, records_added=13809, run_time=0.78s
+2025-03-18 19:15:14,203 - CHUNK PROCESSED: offset=700000, chunk_size=50000, records_added=13870, run_time=0.84s
+2025-03-18 19:15:14,263 - CHUNK PROCESSED: offset=750000, chunk_size=50000, records_added=13717, run_time=0.90s
+2025-03-18 19:15:14,324 - CHUNK PROCESSED: offset=800000, chunk_size=50000, records_added=13830, run_time=0.96s
+2025-03-18 19:15:14,394 - CHUNK PROCESSED: offset=850000, chunk_size=50000, records_added=13820, run_time=1.03s
+2025-03-18 19:15:14,457 - CHUNK PROCESSED: offset=900000, chunk_size=50000, records_added=13769, run_time=1.09s
+2025-03-18 19:15:14,521 - CHUNK PROCESSED: offset=950000, chunk_size=50000, records_added=13788, run_time=1.16s
+2025-03-18 19:15:14,532 - === ETL RUN COMPLETED in 1.17s. Total records processed: 1000000 ===
+2025-03-18 19:15:14,533 - Failed to send email to tsaurabh2021@gmail.com: [Errno 8] nodename nor servname provided, or not known
+2025-03-18 19:22:39,897 - === ETL RUN START ===
+2025-03-18 19:22:39,984 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=13785, run_time=0.09s
+2025-03-18 19:22:40,034 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=13842, run_time=0.14s
+2025-03-18 19:22:40,083 - CHUNK PROCESSED: offset=100000, chunk_size=50000, records_added=13764, run_time=0.19s
+2025-03-18 19:22:40,133 - CHUNK PROCESSED: offset=150000, chunk_size=50000, records_added=13776, run_time=0.24s
+2025-03-18 19:22:40,183 - CHUNK PROCESSED: offset=200000, chunk_size=50000, records_added=13760, run_time=0.29s
+2025-03-18 19:22:40,231 - CHUNK PROCESSED: offset=250000, chunk_size=50000, records_added=13821, run_time=0.33s
+2025-03-18 19:22:40,283 - CHUNK PROCESSED: offset=300000, chunk_size=50000, records_added=13798, run_time=0.39s
+2025-03-18 19:22:40,336 - CHUNK PROCESSED: offset=350000, chunk_size=50000, records_added=13810, run_time=0.44s
+2025-03-18 19:22:40,389 - CHUNK PROCESSED: offset=400000, chunk_size=50000, records_added=13853, run_time=0.49s
+2025-03-18 19:22:40,448 - CHUNK PROCESSED: offset=450000, chunk_size=50000, records_added=13748, run_time=0.55s
+2025-03-18 19:22:40,505 - CHUNK PROCESSED: offset=500000, chunk_size=50000, records_added=13840, run_time=0.61s
+2025-03-18 19:22:40,559 - CHUNK PROCESSED: offset=550000, chunk_size=50000, records_added=13792, run_time=0.66s
+2025-03-18 19:22:40,617 - CHUNK PROCESSED: offset=600000, chunk_size=50000, records_added=13842, run_time=0.72s
+2025-03-18 19:22:40,676 - CHUNK PROCESSED: offset=650000, chunk_size=50000, records_added=13809, run_time=0.78s
+2025-03-18 19:22:40,735 - CHUNK PROCESSED: offset=700000, chunk_size=50000, records_added=13870, run_time=0.84s
+2025-03-18 19:22:40,794 - CHUNK PROCESSED: offset=750000, chunk_size=50000, records_added=13717, run_time=0.90s
+2025-03-18 19:22:40,854 - CHUNK PROCESSED: offset=800000, chunk_size=50000, records_added=13830, run_time=0.96s
+2025-03-18 19:22:40,915 - CHUNK PROCESSED: offset=850000, chunk_size=50000, records_added=13820, run_time=1.02s
+2025-03-18 19:22:40,977 - CHUNK PROCESSED: offset=900000, chunk_size=50000, records_added=13769, run_time=1.08s
+2025-03-18 19:22:41,037 - CHUNK PROCESSED: offset=950000, chunk_size=50000, records_added=13788, run_time=1.14s
+2025-03-18 19:22:41,048 - === ETL RUN COMPLETED in 1.15s. Total records processed: 1000000 ===
+2025-03-18 19:22:42,213 - Failed to send email to tsaurabh2021@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-225c6bd4dd7sm102453975ad.223 - gsmtp')
+2025-03-18 19:27:34,743 - === ETL RUN START ===
+2025-03-18 19:27:34,830 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=13785, run_time=0.09s
+2025-03-18 19:27:34,881 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=13842, run_time=0.14s
+2025-03-18 19:27:34,931 - CHUNK PROCESSED: offset=100000, chunk_size=50000, records_added=13764, run_time=0.19s
+2025-03-18 19:27:34,981 - CHUNK PROCESSED: offset=150000, chunk_size=50000, records_added=13776, run_time=0.24s
+2025-03-18 19:27:35,030 - CHUNK PROCESSED: offset=200000, chunk_size=50000, records_added=13760, run_time=0.29s
+2025-03-18 19:27:35,079 - CHUNK PROCESSED: offset=250000, chunk_size=50000, records_added=13821, run_time=0.34s
+2025-03-18 19:27:35,130 - CHUNK PROCESSED: offset=300000, chunk_size=50000, records_added=13798, run_time=0.39s
+2025-03-18 19:27:35,183 - CHUNK PROCESSED: offset=350000, chunk_size=50000, records_added=13810, run_time=0.44s
+2025-03-18 19:27:35,236 - CHUNK PROCESSED: offset=400000, chunk_size=50000, records_added=13853, run_time=0.49s
+2025-03-18 19:27:35,292 - CHUNK PROCESSED: offset=450000, chunk_size=50000, records_added=13748, run_time=0.55s
+2025-03-18 19:27:35,347 - CHUNK PROCESSED: offset=500000, chunk_size=50000, records_added=13840, run_time=0.60s
+2025-03-18 19:27:35,402 - CHUNK PROCESSED: offset=550000, chunk_size=50000, records_added=13792, run_time=0.66s
+2025-03-18 19:27:35,460 - CHUNK PROCESSED: offset=600000, chunk_size=50000, records_added=13842, run_time=0.72s
+2025-03-18 19:27:35,529 - CHUNK PROCESSED: offset=650000, chunk_size=50000, records_added=13809, run_time=0.79s
+2025-03-18 19:27:35,588 - CHUNK PROCESSED: offset=700000, chunk_size=50000, records_added=13870, run_time=0.85s
+2025-03-18 19:27:35,648 - CHUNK PROCESSED: offset=750000, chunk_size=50000, records_added=13717, run_time=0.91s
+2025-03-18 19:27:35,708 - CHUNK PROCESSED: offset=800000, chunk_size=50000, records_added=13830, run_time=0.97s
+2025-03-18 19:27:35,771 - CHUNK PROCESSED: offset=850000, chunk_size=50000, records_added=13820, run_time=1.03s
+2025-03-18 19:27:35,833 - CHUNK PROCESSED: offset=900000, chunk_size=50000, records_added=13769, run_time=1.09s
+2025-03-18 19:27:35,895 - CHUNK PROCESSED: offset=950000, chunk_size=50000, records_added=13788, run_time=1.15s
+2025-03-18 19:27:35,906 - === ETL RUN COMPLETED in 1.16s. Total records processed: 1000000 ===
+2025-03-18 19:27:35,907 - Failed to send email to tsaurabh2021@gmail.com: [Errno 61] Connection refused
+2025-03-18 19:31:42,239 - === ETL RUN START ===
+2025-03-18 19:31:42,329 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=13785, run_time=0.09s
+2025-03-18 19:31:42,385 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=13842, run_time=0.15s
+2025-03-18 19:31:42,454 - CHUNK PROCESSED: offset=100000, chunk_size=50000, records_added=13764, run_time=0.22s
+2025-03-18 19:31:42,503 - CHUNK PROCESSED: offset=150000, chunk_size=50000, records_added=13776, run_time=0.26s
+2025-03-18 19:31:42,554 - CHUNK PROCESSED: offset=200000, chunk_size=50000, records_added=13760, run_time=0.32s
+2025-03-18 19:31:42,605 - CHUNK PROCESSED: offset=250000, chunk_size=50000, records_added=13821, run_time=0.37s
+2025-03-18 19:31:42,659 - CHUNK PROCESSED: offset=300000, chunk_size=50000, records_added=13798, run_time=0.42s
+2025-03-18 19:31:42,714 - CHUNK PROCESSED: offset=350000, chunk_size=50000, records_added=13810, run_time=0.48s
+2025-03-18 19:31:42,769 - CHUNK PROCESSED: offset=400000, chunk_size=50000, records_added=13853, run_time=0.53s
+2025-03-18 19:31:42,825 - CHUNK PROCESSED: offset=450000, chunk_size=50000, records_added=13748, run_time=0.59s
+2025-03-18 19:31:42,883 - CHUNK PROCESSED: offset=500000, chunk_size=50000, records_added=13840, run_time=0.64s
+2025-03-18 19:31:42,941 - CHUNK PROCESSED: offset=550000, chunk_size=50000, records_added=13792, run_time=0.70s
+2025-03-18 19:31:43,000 - CHUNK PROCESSED: offset=600000, chunk_size=50000, records_added=13842, run_time=0.76s
+2025-03-18 19:31:43,060 - CHUNK PROCESSED: offset=650000, chunk_size=50000, records_added=13809, run_time=0.82s
+2025-03-18 19:31:43,122 - CHUNK PROCESSED: offset=700000, chunk_size=50000, records_added=13870, run_time=0.88s
+2025-03-18 19:31:43,186 - CHUNK PROCESSED: offset=750000, chunk_size=50000, records_added=13717, run_time=0.95s
+2025-03-18 19:31:43,246 - CHUNK PROCESSED: offset=800000, chunk_size=50000, records_added=13830, run_time=1.01s
+2025-03-18 19:31:43,310 - CHUNK PROCESSED: offset=850000, chunk_size=50000, records_added=13820, run_time=1.07s
+2025-03-18 19:31:43,373 - CHUNK PROCESSED: offset=900000, chunk_size=50000, records_added=13769, run_time=1.13s
+2025-03-18 19:31:43,441 - CHUNK PROCESSED: offset=950000, chunk_size=50000, records_added=13788, run_time=1.20s
+2025-03-18 19:31:43,453 - === ETL RUN COMPLETED in 1.21s. Total records processed: 1000000 ===
+2025-03-18 19:31:43,459 - Email sent successfully to tsaurabh2021@gmail.com with subject 'ETL Success'
+2025-04-08 14:59:53,533 - === ETL RUN START ===
+2025-04-08 14:59:53,682 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=13785, run_time=0.15s
+2025-04-08 14:59:53,749 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=13842, run_time=0.22s
+2025-04-08 14:59:53,812 - CHUNK PROCESSED: offset=100000, chunk_size=50000, records_added=13764, run_time=0.28s
+2025-04-08 14:59:53,873 - CHUNK PROCESSED: offset=150000, chunk_size=50000, records_added=13776, run_time=0.34s
+2025-04-08 14:59:53,937 - CHUNK PROCESSED: offset=200000, chunk_size=50000, records_added=13760, run_time=0.41s
+2025-04-08 14:59:54,004 - CHUNK PROCESSED: offset=250000, chunk_size=50000, records_added=13821, run_time=0.47s
+2025-04-08 14:59:54,071 - CHUNK PROCESSED: offset=300000, chunk_size=50000, records_added=13798, run_time=0.54s
+2025-04-08 14:59:54,136 - CHUNK PROCESSED: offset=350000, chunk_size=50000, records_added=13810, run_time=0.60s
+2025-04-08 14:59:54,201 - CHUNK PROCESSED: offset=400000, chunk_size=50000, records_added=13853, run_time=0.67s
+2025-04-08 14:59:54,270 - CHUNK PROCESSED: offset=450000, chunk_size=50000, records_added=13748, run_time=0.74s
+2025-04-08 14:59:54,340 - CHUNK PROCESSED: offset=500000, chunk_size=50000, records_added=13840, run_time=0.81s
+2025-04-08 14:59:54,408 - CHUNK PROCESSED: offset=550000, chunk_size=50000, records_added=13792, run_time=0.88s
+2025-04-08 14:59:54,481 - CHUNK PROCESSED: offset=600000, chunk_size=50000, records_added=13842, run_time=0.95s
+2025-04-08 14:59:54,553 - CHUNK PROCESSED: offset=650000, chunk_size=50000, records_added=13809, run_time=1.02s
+2025-04-08 14:59:54,635 - CHUNK PROCESSED: offset=700000, chunk_size=50000, records_added=13870, run_time=1.10s
+2025-04-08 14:59:54,708 - CHUNK PROCESSED: offset=750000, chunk_size=50000, records_added=13717, run_time=1.18s
+2025-04-08 14:59:54,783 - CHUNK PROCESSED: offset=800000, chunk_size=50000, records_added=13830, run_time=1.25s
+2025-04-08 14:59:54,868 - CHUNK PROCESSED: offset=850000, chunk_size=50000, records_added=13820, run_time=1.34s
+2025-04-08 14:59:54,946 - CHUNK PROCESSED: offset=900000, chunk_size=50000, records_added=13769, run_time=1.41s
+2025-04-08 14:59:55,036 - CHUNK PROCESSED: offset=950000, chunk_size=50000, records_added=13788, run_time=1.50s
+2025-04-08 14:59:55,055 - === ETL RUN COMPLETED in 1.52s. Total records processed: 1000000 ===
+2025-04-08 14:59:55,056 - Failed to send email to tsaurabh2021@gmail.com: [Errno 61] Connection refused
+2025-04-10 13:47:06,376 - === ETL RUN START ===
+2025-04-10 13:47:06,572 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=13709, run_time=0.20s
+2025-04-10 13:47:06,662 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=13837, run_time=0.29s
+2025-04-10 13:47:06,740 - CHUNK PROCESSED: offset=100000, chunk_size=50000, records_added=13745, run_time=0.37s
+2025-04-10 13:47:06,819 - CHUNK PROCESSED: offset=150000, chunk_size=50000, records_added=13820, run_time=0.44s
+2025-04-10 13:47:06,897 - CHUNK PROCESSED: offset=200000, chunk_size=50000, records_added=13919, run_time=0.52s
+2025-04-10 13:47:06,970 - CHUNK PROCESSED: offset=250000, chunk_size=50000, records_added=13755, run_time=0.60s
+2025-04-10 13:47:07,042 - CHUNK PROCESSED: offset=300000, chunk_size=50000, records_added=13732, run_time=0.67s
+2025-04-10 13:47:07,117 - CHUNK PROCESSED: offset=350000, chunk_size=50000, records_added=13819, run_time=0.74s
+2025-04-10 13:47:07,200 - CHUNK PROCESSED: offset=400000, chunk_size=50000, records_added=13759, run_time=0.82s
+2025-04-10 13:47:07,282 - CHUNK PROCESSED: offset=450000, chunk_size=50000, records_added=13800, run_time=0.91s
+2025-04-10 13:47:07,362 - CHUNK PROCESSED: offset=500000, chunk_size=50000, records_added=13803, run_time=0.99s
+2025-04-10 13:47:07,453 - CHUNK PROCESSED: offset=550000, chunk_size=50000, records_added=13705, run_time=1.08s
+2025-04-10 13:47:07,537 - CHUNK PROCESSED: offset=600000, chunk_size=50000, records_added=13807, run_time=1.16s
+2025-04-10 13:47:07,624 - CHUNK PROCESSED: offset=650000, chunk_size=50000, records_added=13854, run_time=1.25s
+2025-04-10 13:47:07,713 - CHUNK PROCESSED: offset=700000, chunk_size=50000, records_added=13819, run_time=1.34s
+2025-04-10 13:47:07,798 - CHUNK PROCESSED: offset=750000, chunk_size=50000, records_added=13809, run_time=1.42s
+2025-04-10 13:47:07,887 - CHUNK PROCESSED: offset=800000, chunk_size=50000, records_added=13807, run_time=1.51s
+2025-04-10 13:47:07,981 - CHUNK PROCESSED: offset=850000, chunk_size=50000, records_added=13792, run_time=1.61s
+2025-04-10 13:47:08,072 - CHUNK PROCESSED: offset=900000, chunk_size=50000, records_added=13861, run_time=1.70s
+2025-04-10 13:47:08,164 - CHUNK PROCESSED: offset=950000, chunk_size=50000, records_added=13838, run_time=1.79s
+2025-04-10 13:47:08,178 - === ETL RUN COMPLETED in 1.80s. Total records processed: 1000000 ===
+2025-04-10 13:47:08,180 - Failed to send email to tsaurabh2021@gmail.com: [Errno 61] Connection refused
+2025-04-10 13:53:00,505 - === ETL RUN START ===
+2025-04-10 13:53:00,663 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=13817, run_time=0.16s
+2025-04-10 13:53:00,798 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=13832, run_time=0.29s
+2025-04-10 13:53:00,879 - CHUNK PROCESSED: offset=100000, chunk_size=50000, records_added=13798, run_time=0.37s
+2025-04-10 13:53:00,978 - CHUNK PROCESSED: offset=150000, chunk_size=50000, records_added=13762, run_time=0.47s
+2025-04-10 13:53:01,062 - CHUNK PROCESSED: offset=200000, chunk_size=50000, records_added=13795, run_time=0.56s
+2025-04-10 13:53:01,160 - CHUNK PROCESSED: offset=250000, chunk_size=50000, records_added=13790, run_time=0.66s
+2025-04-10 13:53:01,242 - CHUNK PROCESSED: offset=300000, chunk_size=50000, records_added=13821, run_time=0.74s
+2025-04-10 13:53:01,320 - CHUNK PROCESSED: offset=350000, chunk_size=50000, records_added=13796, run_time=0.82s
+2025-04-10 13:53:01,399 - CHUNK PROCESSED: offset=400000, chunk_size=50000, records_added=13736, run_time=0.89s
+2025-04-10 13:53:01,490 - CHUNK PROCESSED: offset=450000, chunk_size=50000, records_added=13918, run_time=0.99s
+2025-04-10 13:53:01,578 - CHUNK PROCESSED: offset=500000, chunk_size=50000, records_added=13817, run_time=1.07s
+2025-04-10 13:53:01,663 - CHUNK PROCESSED: offset=550000, chunk_size=50000, records_added=13823, run_time=1.16s
+2025-04-10 13:53:01,753 - CHUNK PROCESSED: offset=600000, chunk_size=50000, records_added=13789, run_time=1.25s
+2025-04-10 13:53:01,846 - CHUNK PROCESSED: offset=650000, chunk_size=50000, records_added=13803, run_time=1.34s
+2025-04-10 13:53:01,933 - CHUNK PROCESSED: offset=700000, chunk_size=50000, records_added=13768, run_time=1.43s
+2025-04-10 13:53:02,022 - CHUNK PROCESSED: offset=750000, chunk_size=50000, records_added=13814, run_time=1.52s
+2025-04-10 13:53:02,104 - CHUNK PROCESSED: offset=800000, chunk_size=50000, records_added=13805, run_time=1.60s
+2025-04-10 13:53:02,190 - CHUNK PROCESSED: offset=850000, chunk_size=50000, records_added=13880, run_time=1.69s
+2025-04-10 13:53:02,273 - CHUNK PROCESSED: offset=900000, chunk_size=50000, records_added=13845, run_time=1.77s
+2025-04-10 13:53:02,357 - CHUNK PROCESSED: offset=950000, chunk_size=50000, records_added=13749, run_time=1.85s
+2025-04-10 13:53:02,376 - === ETL RUN COMPLETED in 1.87s. Total records processed: 1000000 ===
+2025-04-10 13:53:02,377 - Failed to send email to tsaurabh2021@gmail.com: [Errno 61] Connection refused
+2025-04-10 14:22:20,931 - === ETL RUN START ===
+2025-04-10 14:22:24,413 - CHUNK PROCESSED: offset=0, chunk_size=50000, records_added=13791, run_time=3.48s
+2025-04-10 14:22:25,786 - CHUNK PROCESSED: offset=50000, chunk_size=50000, records_added=12684, run_time=4.86s
+2025-04-10 14:22:25,789 - === ETL RUN COMPLETED in 4.86s. Total records processed: 100000 ===
+2025-04-10 14:22:25,792 - Failed to send email to tsaurabh2021@gmail.com: [Errno 61] Connection refused

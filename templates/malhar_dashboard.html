@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <!-- jQuery, Select2, and Chart.js -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Link to your updated style.css (with .chart-container fix, etc.) -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Weather Data Analytics</h1>
+    <div class="button-bar">
+        <a href="/" class="modern-button" title="Return to the Main Page">
+            Go Back to Main Page
+        </a>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Filters: Date, City, and Get Temperature on one line -->
+    <div class="filters-inline">
+        <label for="datePicker">Select Date:</label>
+        <input type="date" id="datePicker" />
+
+        <label for="citySelect">Select City:</label>
+        <select id="citySelect" class="select2">
+            <!-- Populated dynamically via loadCities() -->
+        </select>
+
+        <button class="modern-button" onclick="fetchTemperature()" title="Fetch the temperature for the selected city and date">
+            Get Temperature
+        </button>
+    </div>
+
+    <!-- ETL Section -->
+    <section class="etl-section">
+        <h2>ETL Process Logs</h2>
+        <!-- Buttons to trigger ETL and refresh logs -->
+        <div style="margin-bottom: 10px;">
+            <button class="modern-button" onclick="runETL()" title="Run the ETL cleaning process">
+                Run ETL Process
+            </button>
+            <button class="modern-button" onclick="fetchStatus()" title="Refresh ETL logs">
+                Refresh Logs
+            </button>
+        </div>
+        <div id="etlLogs" class="logs">
+            <!-- ETL logs will be rendered here -->
+        </div>
+        <h3 id="recordCount">Records Processed: (See detailed logs)</h3>
+    </section>
+
+    <!-- Cleaned Data Section -->
+    <section class="cleaned-data-section">
+        <h2>Cleaned Data (Sample)</h2>
+        <div style="margin-bottom: 10px;">
+            <button class="modern-button" onclick="fetchCleanedData()" title="Refresh Cleaned Data">
+                Refresh Cleaned Data
+            </button>
+        </div>
+        <div id="cleanedData" class="logs" style="max-height:300px; overflow-y:auto;">
+            <!-- Cleaned data table will be rendered here -->
+        </div>
+    </section>
+
+    <!-- Chart Section -->
+    <section class="chart-section">
+        <h2>Average Temperature</h2>
+        <div class="chart-container">
+            <canvas id="tempChart"></canvas>
+        </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Sauriboy Weather Data. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript Functions -->
+  <script>
+    // Helper: Parse a log line into its components (if possible)
+    function parseLogLine(line) {
+      // Expected format: "TIMESTAMP - CHUNK PROCESSED: offset=X, chunk_size=Y, records_added=Z, run_time=Ts"
+      // or lines like "=== ETL RUN START ===" or "=== ETL RUN COMPLETED in Ts. Total records processed: N ==="
+      let parts = line.split(" - ");
+      if(parts.length < 2) {
+        return { raw: line.trim() };
+      }
+      let timestamp = parts[0].trim();
+      let message = parts.slice(1).join(" - ").trim();
+
+      if(message.startsWith("CHUNK PROCESSED:")) {
+        let regex = /offset=(\d+),\s*chunk_size=(\d+),\s*records_added=(\d+),\s*run_time=([\d.]+s)/;
+        let match = message.match(regex);
+        if(match) {
+          return {
+            timestamp,
+            type: "chunk",
+            offset: match[1],
+            chunk_size: match[2],
+            records_added: match[3],
+            run_time: match[4]
+          };
+        }
+      }
+      // For start and completed messages, mark as "info"
+      return {
+        timestamp,
+        type: "info",
+        message: message
+      };
+    }
+
+    // Display ETL logs in a structured format
+    async function fetchStatus() {
+      let response = await fetch('/etl/status');
+      let data = await response.json();
+
+      let logsDiv = document.getElementById("etlLogs");
+      logsDiv.innerHTML = ""; // Clear previous logs
+
+      let chunkLogs = [];
+      let infoLogs = [];
+
+      data.status.forEach(line => {
+        let parsed = parseLogLine(line);
+        if (parsed.type === "chunk") {
+          chunkLogs.push(parsed);
+        } else if (parsed.type === "info") {
+          infoLogs.push(parsed);
+        } else {
+          infoLogs.push({ raw: line.trim() });
+        }
+      });
+
+      // Display info logs first
+      if (infoLogs.length > 0) {
+        let infoContainer = document.createElement("div");
+        infoContainer.style.marginBottom = "10px";
+        infoLogs.forEach(log => {
+          let p = document.createElement("p");
+          p.style.fontWeight = "bold";
+          p.textContent = log.message ? `${log.timestamp} - ${log.message}` : log.raw;
+          infoContainer.appendChild(p);
+        });
+        logsDiv.appendChild(infoContainer);
+      }
+
+      // Then display chunk logs in a table if available
+      if (chunkLogs.length > 0) {
+        let table = document.createElement("table");
+        table.style.width = "100%";
+        table.style.borderCollapse = "collapse";
+        table.style.marginTop = "10px";
+
+        // Table header
+        let thead = document.createElement("thead");
+        let headerRow = document.createElement("tr");
+        let headers = ["Timestamp", "Offset", "Chunk Size", "Records Added", "Run Time"];
+        headers.forEach(text => {
+          let th = document.createElement("th");
+          th.textContent = text;
+          th.style.borderBottom = "1px solid #ddd";
+          th.style.padding = "5px";
+          th.style.textAlign = "left";
+          headerRow.appendChild(th);
+        });
+        thead.appendChild(headerRow);
+        table.appendChild(thead);
+
+        // Table body
+        let tbody = document.createElement("tbody");
+        chunkLogs.forEach(log => {
+          let row = document.createElement("tr");
+
+          let tdTimestamp = document.createElement("td");
+          tdTimestamp.textContent = log.timestamp;
+          tdTimestamp.style.padding = "5px";
+
+          let tdOffset = document.createElement("td");
+          tdOffset.textContent = log.offset;
+          tdOffset.style.padding = "5px";
+
+          let tdChunkSize = document.createElement("td");
+          tdChunkSize.textContent = log.chunk_size;
+          tdChunkSize.style.padding = "5px";
+
+          let tdRecords = document.createElement("td");
+          tdRecords.textContent = log.records_added;
+          tdRecords.style.padding = "5px";
+
+          let tdRunTime = document.createElement("td");
+          tdRunTime.textContent = log.run_time;
+          tdRunTime.style.padding = "5px";
+
+          row.appendChild(tdTimestamp);
+          row.appendChild(tdOffset);
+          row.appendChild(tdChunkSize);
+          row.appendChild(tdRecords);
+          row.appendChild(tdRunTime);
+          tbody.appendChild(row);
+        });
+        table.appendChild(tbody);
+        logsDiv.appendChild(table);
+      }
+
+      document.getElementById("recordCount").textContent = "Records Processed: (Check detailed logs)";
+    }
+
+    // Trigger ETL process by calling the /etl/run endpoint
+    async function runETL() {
+      let response = await fetch('/etl/run');
+      let data = await response.json();
+      alert(data.message); // Notify the user that ETL has started
+      // Refresh logs and cleaned data after a short delay
+      setTimeout(fetchStatus, 5000);
+      setTimeout(fetchCleanedData, 6000);
+    }
+
+    // Fetch cleaned data from the new table and display it in a table
+    async function fetchCleanedData() {
+      let response = await fetch('/etl/cleaned_data');
+      let data = await response.json();
+
+      let cleanedDiv = document.getElementById("cleanedData");
+      cleanedDiv.innerHTML = ""; // Clear previous data
+
+      if(data.error) {
+        cleanedDiv.textContent = "Error fetching cleaned data: " + data.error;
+        return;
+      }
+
+      if (!data.length) {
+        cleanedDiv.textContent = "No cleaned data available.";
+        return;
+      }
+
+      // Create a table to display cleaned data
+      let table = document.createElement("table");
+      table.style.width = "100%";
+      table.style.borderCollapse = "collapse";
+      table.style.marginTop = "10px";
+
+      // Table header
+      let thead = document.createElement("thead");
+      let headerRow = document.createElement("tr");
+      let headers = ["City", "Date", "Avg Temperature", "Weather"];
+      headers.forEach(text => {
+        let th = document.createElement("th");
+        th.textContent = text;
+        th.style.borderBottom = "1px solid #ddd";
+        th.style.padding = "5px";
+        th.style.textAlign = "left";
+        headerRow.appendChild(th);
+      });
+      thead.appendChild(headerRow);
+      table.appendChild(thead);
+
+      // Table body
+      let tbody = document.createElement("tbody");
+      data.forEach(record => {
+        let row = document.createElement("tr");
+        let tdCity = document.createElement("td");
+        tdCity.textContent = record.city;
+        tdCity.style.padding = "5px";
+
+        let tdDate = document.createElement("td");
+        tdDate.textContent = record.date;
+        tdDate.style.padding = "5px";
+
+        let tdTemp = document.createElement("td");
+        tdTemp.textContent = Math.round(record.avg_temperature);
+        tdTemp.style.padding = "5px";
+
+        let tdWeather = document.createElement("td");
+        tdWeather.textContent = record.weather;
+        tdWeather.style.padding = "5px";
+
+        row.appendChild(tdCity);
+        row.appendChild(tdDate);
+        row.appendChild(tdTemp);
+        row.appendChild(tdWeather);
+        tbody.appendChild(row);
+      });
+      table.appendChild(tbody);
+      cleanedDiv.appendChild(table);
+    }
+
+    // Load Charts (Temperature data)
+    async function loadCharts() {
+      let response = await fetch('/bulk/clean_data');
+      let data = await response.json();
+
+      new Chart(document.getElementById("tempChart"), {
+        type: "line",
+        data: {
+          labels: data.cities,
+          datasets: [{
+            label: "Avg Temperature",
+            data: data.avg_temperatures,
+            backgroundColor: "#33AEFF"
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false
+        }
+      });
+    }
+
+    // Fetch Temperature for selected city/date
+    async function fetchTemperature() {
+      const city = document.getElementById("citySelect").value;
+      const date = document.getElementById("datePicker").value;
+
+      let response = await fetch(`/bulk/temperature?city=${city}&date=${date}`);
+      let data = await response.json();
+
+      if (data.temperature === null) {
+        alert(`Temperature data for ${city} on ${date} is unavailable.`);
+      } else {
+        alert(`Temperature on ${date} in ${city}: ${data.temperature}°C`);
+      }
+    }
+
+    // Load cities for the dropdown
+    async function loadCities() {
+      let response = await fetch('/bulk/cities');
+      let cities = await response.json();
+
+      let citySelect = $('#citySelect');
+      cities.forEach(city => {
+        citySelect.append(`<option value="${city}">${city}</option>`);
+      });
+
+      citySelect.select2();
+    }
+
+    // On page load
+    $(document).ready(function() {
+      loadCities();
+      loadCharts();
+      fetchStatus();
+      fetchCleanedData(); // Load cleaned data on page load
+    });
+  </script>
+</body>
+</html>

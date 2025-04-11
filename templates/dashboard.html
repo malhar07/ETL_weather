@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- External Libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+
+    <!-- Your CSS -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Weather Analytics Dashboard</h1>
+      <div class="button-bar">
+        <a href="/" class="modern-button">⬅ Back to Home</a>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- 🔍 Temperature Lookup Section -->
+      <div class="filters-inline">
+        <div class="card">
+          <label for="datePicker">Select Date:</label>
+          <input type="date" id="datePicker" />
+        </div>
+
+        <div class="card">
+          <label for="citySelect">Select City:</label>
+          <select id="citySelect" class="select2">
+            <!-- Populated dynamically via loadCities() -->
+          </select>
+        </div>
+
+        <button class="modern-button" onclick="fetchTemperature()" title="Fetch the temperature for the selected city and date">
+          Get Temperature
+        </button>
+      </div>
+
+      <!-- 📊 Line Chart Section -->
+      <section class="chart-section">
+        <h2>Average Temperature by City</h2>
+        <div class="chart-container">
+          <canvas id="tempChart"></canvas>
+        </div>
+      </section>
+
+      <!-- 🧾 Logs & Cleaned Data Section -->
+      <div class="dashboard-sections">
+        <!-- ETL Logs -->
+        <section class="etl-section">
+          <h2>ETL Logs</h2>
+          <div class="button-bar">
+            <button class="modern-button" onclick="runETL()">Run ETL</button>
+            <button class="modern-button" onclick="fetchStatus()">
+              Refresh Logs
+            </button>
+          </div>
+          <div id="etlLogs" class="logs">Logs will appear here...</div>
+        </section>
+
+        <!-- Cleaned Data -->
+        <section class="chart-section">
+          <h2>Cleaned Data (Sample)</h2>
+          <div class="button-bar">
+            <button class="modern-button" onclick="fetchCleanedData()">
+              Refresh Data
+            </button>
+          </div>
+          <div
+            id="cleanedData"
+            class="logs"
+            style="max-height: 300px; overflow-y: auto"
+          >
+            Cleaned data will appear here...
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Weather Analytics.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+      // 📍 Load cities into dropdown
+      async function loadCities() {
+        const res = await fetch("/bulk/cities");
+        const cities = await res.json();
+        const select = $("#citySelect");
+        cities.forEach((city) => {
+          select.append(`<option value="${city}">${city}</option>`);
+        });
+        select.select2();
+      }
+
+      // 🔍 Fetch temperature for selected city/date
+      async function fetchTemperature() {
+        const city = $("#citySelect").val();
+        const date = $("#datePicker").val();
+        if (!city || !date) return alert("Please select both city and date.");
+        const res = await fetch(`/bulk/temperature?city=${city}&date=${date}`);
+        const data = await res.json();
+        console.log(data); // Log the response data
+        if (data.error) return alert(data.error);
+        alert(`Temperature in ${city} on ${date}: ${data.avg_temperature}°C`);
+      }
+
+      // 📈 Load smooth line chart
+      async function loadCharts() {
+        const res = await fetch("/bulk/clean_data");
+        const data = await res.json();
+        new Chart(document.getElementById("tempChart"), {
+          type: "line",
+          data: {
+            labels: data.cities,
+            datasets: [
+              {
+                label: "Avg Temperature (°C)",
+                data: data.avg_temperatures,
+                fill: true,
+                borderColor: "#FF9900",
+                backgroundColor: "rgba(255, 153, 0, 0.1)",
+                tension: 0.4, // Smooth line
+                pointBackgroundColor: "#FF9900",
+                pointRadius: 4,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                display: true,
+                position: "top",
+              },
+            },
+            scales: {
+              y: {
+                beginAtZero: true,
+                title: {
+                  display: true,
+                  text: "Temperature (°C)",
+                },
+              },
+              x: {
+                title: {
+                  display: true,
+                  text: "City",
+                },
+              },
+            },
+          },
+        });
+      }
+
+      // 🔁 ETL logs
+      async function fetchStatus() {
+        const res = await fetch("/etl/status");
+        const logs = await res.json();
+        const container = document.getElementById("etlLogs");
+        container.innerHTML = logs.status
+          .map((line) => `<p>${line}</p>`)
+          .join("");
+      }
+
+      // ▶️ Run ETL
+      async function runETL() {
+        const res = await fetch("/etl/run");
+        const data = await res.json();
+        alert(data.message);
+        setTimeout(fetchStatus, 3000);
+      }
+
+      // 📄 Fetch cleaned data
+      async function fetchCleanedData() {
+        const res = await fetch("/etl/cleaned_data");
+        const data = await res.json();
+        if (data.error) return alert(data.error);
+        const container = document.getElementById("cleanedData");
+        container.innerHTML = `
+        <table>
+          <thead>
+            <tr><th>City</th><th>Date</th><th>Avg Temp</th><th>Weather</th></tr>
+          </thead>
+          <tbody>
+            ${data
+              .map(
+                (d) => `
+              <tr>
+                <td>${d.city}</td>
+                <td>${d.date}</td>
+                <td>${d.avg_temperature}</td>
+                <td>${d.weather}</td>
+              </tr>`
+              )
+              .join("")}
+          </tbody>
+        </table>
+      `;
+      }
+
+      // 🚀 Init
+      $(document).ready(() => {
+        loadCities();
+        loadCharts();
+        fetchStatus();
+        fetchCleanedData();
+      });
+    </script>
+  </body>
+</html>

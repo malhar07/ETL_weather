@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather Analytics - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>🌦️ Weather Analytics</h1>
+    </header>
+
+    <main class="container">
+      <!-- 🌟 Hero Section -->
+      <section class="hero">
+        <h1>Welcome to Weather Analytics</h1>
+        <p>
+          Explore 1M+ weather records with blazing-fast queries and rich
+          visualizations.
+        </p>
+        <div class="button-bar">
+          <a href="/bulk/fetch_bulk" class="modern-button"
+            >🚀 Fetch Bulk Data</a
+          >
+          <a href="/dashboard" class="modern-button">📊 Go to Dashboard</a>
+        </div>
+      </section>
+
+      <!-- 📄 Weather Data Table -->
+      <section class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Temperature (°C)</th>
+              <th>Weather</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in data.items %}
+            <tr>
+              <td>{{ row.city }}</td>
+              <td>{{ row.temperature }}</td>
+              <td>{{ row.weather }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </section>
+
+      <!-- 🔁 Pagination -->
+      <nav class="pagination">
+        {% if data.has_prev %}
+        <a href="{{ url_for('bulk.view_weather_data', page=data.prev_num) }}"
+          >⬅ Prev</a
+        >
+        {% endif %}
+        <span>Page {{ data.page }} of {{ data.pages }}</span>
+        {% if data.has_next %}
+        <a href="{{ url_for('bulk.view_weather_data', page=data.next_num) }}"
+          >Next ➡</a
+        >
+        {% endif %}
+      </nav>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Weather Analytics.</p>
+    </footer>
+  </body>
+</html>

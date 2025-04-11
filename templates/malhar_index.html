@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather Data</title>
+
+    <!-- Include your existing CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    
+    <!-- If you want to use icons (optional), uncomment the Font Awesome script below
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Include Select2 (only if you're using it on this page) -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+    
+    <script>
+        // Initialize Select2 if needed
+        $(document).ready(function() {
+            $('#city-dropdown').select2();  
+        });
+
+        // Fetch & Mock Bulk Data function
+        async function fetchBulk() {
+            document.getElementById("loading").style.display = "block";
+            const notification = document.getElementById("notification");
+            notification.style.display = "none";
+
+            try {
+                let response = await fetch('/bulk/fetch_bulk');
+                let data = await response.json();
+                document.getElementById("loading").style.display = "none";
+                notification.textContent = data.message || "Bulk data fetched!";
+                notification.style.display = "block";
+                setTimeout(() => { notification.style.display = "none"; }, 3000);
+                location.reload();
+            } catch (error) {
+                document.getElementById("loading").style.display = "none";
+                notification.textContent = "Error fetching bulk data.";
+                notification.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>🌎 Weather Data</h1>
+    </header>
+
+    <main class="container">
+        <!-- New button layout -->
+        <div class="button-bar">
+            <button 
+                class="modern-button" 
+                onclick="fetchBulk()" 
+                title="Fetch and Mock Bulk Weather Data"
+            >
+                Fetch &amp; Mock Bulk Data
+            </button>
+
+            <a 
+                href="/dashboard" 
+                class="modern-button" 
+                title="Go to the Weather Dashboard"
+            >
+                Go to Dashboard
+            </a>
+        </div>
+
+        <!-- Notification area and loading indicator (if any) -->
+        <div id="notification" class="notification"></div>
+        <div id="loading" style="display:none;">Loading...</div>
+
+        <!-- Table of weather data -->
+        <section class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>City</th>
+                        <th>Date</th>
+                        <th>Temperature (°C)</th>
+                        <th>Weather</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in data.items %}
+                    <tr>
+                        <td>{{ row.city }}</td>
+                        <td>{{ row.date }}</td>
+                        <td>{{ row.temperature if row.temperature else "N/A" }}</td>
+                        <td>{{ row.weather }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Pagination controls -->
+        <nav class="pagination">
+            {% if data.has_prev %}
+                <a href="{{ url_for('home', page=data.prev_num) }}">⬅ Prev</a>
+            {% endif %}
+            <span>Page {{ data.page }} of {{ data.pages }}</span>
+            {% if data.has_next %}
+                <a href="{{ url_for('home', page=data.next_num) }}">Next ➡</a>
+            {% endif %}
+        </nav>
+    </main>
+
+    <footer>
+        <p>&copy; 2025  Weather Data. All rights reserved.</p>
+    </footer>
+</body>
+</html>
