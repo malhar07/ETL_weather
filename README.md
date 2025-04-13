@@ -123,7 +123,7 @@ Here is an overview of the project structure:
 
 1. After running the app, go to the following URL in your browser:
    ```
-   http://127.0.0.1:5000/dashboard
+   http://127.0.0.1:8080/dashboard
    ```
    Here you can interact with weather data logs, select dates and cities, and view visual graphs.
 
@@ -170,9 +170,9 @@ This table contains the processed weather data.
 
 | id  | city     | date       | temperature | weather |
 | --- | -------- | ---------- | ----------- | ------- |
-| 1   | Berlin   | 2021-05-10 | 23.5        | Sunny   |
-| 2   | Paris    | 2021-05-10 | 18.0        | Cloudy  |
-| 3   | New York | 2021-05-10 | 15.3        | Rainy   |
+| 1   | London   | 2021-05-10 | 23.5        | Sunny   |
+| 2   | Mumbai   | 2021-05-10 | 18.0        | Cloudy  |
+| 3   | Toronto  | 2021-05-10 | 15.3        | Rainy   |
 
 ---
 
