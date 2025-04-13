@@ -170,7 +170,7 @@ To simulate email alerts for ETL success/failure:
 Monitor the service health using:
 
 ```bash
-curl http://127.0.0.1:5000/etl/health
+curl http://127.0.0.1:8080/etl/health
 ```
 
 Returns a `200 OK` if everything is running fine, or a `500` if there are issues.
