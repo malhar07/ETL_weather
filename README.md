@@ -85,7 +85,7 @@ Once you've installed the dependencies and set up the virtual environment, you c
    python app.py
    ```
 
-   Flask will start a development server at `http://127.0.0.1:5000/`. You can open this URL in your web browser to access the application.
+   Flask will start a development server at `http://127.0.0.1:8080/`. You can open this URL in your web browser to access the application.
 
 ---
 
